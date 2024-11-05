@@ -7,7 +7,7 @@ import {
   FaGithub,
   FaInstagram,
 } from "react-icons/fa";
-import nasifBg from "../assets/nasif-bg.png";
+import nasifBg from "../assets/nasif.jpg";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 
@@ -60,15 +60,15 @@ export default function Landing() {
 
   return (
     <div
-      className="relative w-full h-screen bg-black text-white font-sans bg-custom bg-no-repeat md:bg-[length:400px] bg-[length:350px] md:bg-[75%] bg-[100%]"
+      className="relative w-full h-screen bg-white text-black font-sans bg-custom bg-no-repeat md:bg-[length:400px] bg-[length:350px] md:bg-[75%] bg-[100%]"
       style={{
-        backgroundImage: `url(${nasifBg})`,
+        // backgroundImage: `url(${nasifBg})`,
       }}
     >
       {/* Navbar */}
       <nav className="absolute top-0 left-0 w-full p-8 flex justify-between items-center z-50">
         <img
-          src="https://harnishdesign.net/demo/html/simone/images/logo-light.png"
+          src="https://static.thenounproject.com/attribution/635148-600.png"
           alt="logo"
           className="w-[80px]"
         />
@@ -88,7 +88,7 @@ export default function Landing() {
       </nav>
 
       {/* Main Content */}
-      <div className="flex flex-col justify-center h-full pr-10 md:pl-32 lg:pl-48 xl:pl-64">
+      <div className="flex flex-col justify-center h-full pl-16 md:pl-32 lg:pl-48 xl:pl-64">
         <h1 className="text-6xl font-bold mb-4">{t("landing.name")}</h1>
         <p className="text-2xl">
           {t("landing.greeting")}{" "}
