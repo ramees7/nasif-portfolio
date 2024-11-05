@@ -1,0 +1,16 @@
+{
+    "landing": {
+      "navbar": {
+        "about": "حول",
+        "resume": "السيرة الذاتية",
+        "portfolio": "المحفظة",
+        "contact": "اتصل بنا"
+      },
+      "name": "ناصيف",
+      "greeting": "أنا",
+      "roles": {
+        "freelancer": "مستقل",
+        "developer": "مطور"
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "landing": {
+    "navbar": {
+      "about": "私たちについて",
+      "resume": "履歴書",
+      "portfolio": "ポートフォリオ",
+      "contact": "お問い合わせ"
+    },
+    "name": "ナシフ",
+    "greeting": "私は",
+    "roles": {
+      "freelancer": "フリーランス",
+      "developer": "開発者"
+    }
+  }
+}

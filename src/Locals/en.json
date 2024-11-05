@@ -1,0 +1,16 @@
+{
+  "landing": {
+    "navbar": {
+      "about": "About",
+      "resume": "Resume",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "name": "Nasif",
+    "greeting": "I'm a",
+    "roles": {
+      "freelancer": "Freelancer",
+      "developer": "Developer"
+    }
+  }
+}
