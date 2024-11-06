@@ -12,6 +12,13 @@ i18n.use(initReactI18next).init({
   },
   lng: "en", // Default language
   fallbackLng: "en",
+  detection: {
+    order: ["localStorage", "navigator", "htmlTag"],
+    caches: ["localStorage"],
+  },
+  backend: {
+    loadPath: "/LanguageStore/{{lng}}/translation.json", // Path to JSON files
+  },
   interpolation: {
     escapeValue: false,
   },
