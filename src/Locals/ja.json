@@ -1,16 +1,60 @@
 {
   "landing": {
     "navbar": {
-      "about": "私たちについて",
+      "about": "私について",
       "resume": "履歴書",
       "portfolio": "ポートフォリオ",
       "contact": "お問い合わせ"
     },
-    "name": "ナシフ",
+    "name": "ナスィフ",
     "greeting": "私は",
     "roles": {
       "freelancer": "フリーランス",
       "developer": "開発者"
+    },
+    "colorSwitcher": "カラー切替"
+  },
+  "about": {
+    "mainHead": {
+      "head": "私のこと",
+      "subHead": "もっと知る"
+    },
+    "aboutDesc": {
+      "iam": "私は",
+      "name": "ナスィフ",
+      "category": "Flutter 開発者",
+      "description": "Doctosmart Enterprises Pvt. Ltd. の熱心な Flutter 開発者として、私は革新的でユーザー中心のモバイルアプリケーションの作成を専門としています。細部へのこだわりとテクノロジーへの情熱を持って、私は期待を超える高品質なソリューションを提供することに取り組んでいます。Flutter の力を活用して、視覚的に魅力的で機能的に堅牢なクロスプラットフォームアプリを作成します。"
+    },
+    "details": {
+      "nameHead": "名前",
+      "nameCont": "ナスィフ",
+      "emailHead": "メールアドレス",
+      "emailCont": "connect.tonasif@gmail.com",
+      "ageHead": "年齢",
+      "ageCont": "22",
+      "fromHead": "出身",
+      "fromCont": "ケララ州、インド",
+      "download": "CV ダウンロード"
+    },
+    "statistics": {
+      "experience": "経験年数",
+      "clients": "満足したクライアント",
+      "projects": "完了したプロジェクト",
+      "awards": "受賞歴"
     }
+  },
+  "service": {
+    "mainHead": {
+      "head": "サービス",
+      "subHead": "私がすること"
+    },
+    "serviceTitleApp": "アプリデザインと開発",
+    "descApp": "iOS と Android のための素晴らしいモバイルアプリを設計および開発します。",
+    "serviceTitleDM": "デジタルマーケティング",
+    "descDM": "効果的なデジタルマーケティング戦略でオンラインでの存在感を高めます。",
+    "serviceTitleWeb": "Web開発",
+    "descWeb": "お客様のニーズに合わせて、レスポンシブでユーザーフレンドリーなウェブサイトを構築します。",
+    "serviceTitleGraphic": "グラフィックデザイン",
+    "descGraphic": "クリエイティブなグラフィックデザインソリューションでブランドを高めます。"
   }
 }

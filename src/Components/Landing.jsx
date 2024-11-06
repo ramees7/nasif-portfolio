@@ -63,9 +63,9 @@ export default function Landing() {
   const socialIcons = [
     { icon: <FaTwitter />, link: "#" },
     { icon: <FaFacebook />, link: "#" },
-    { icon: <FaLinkedin />, link: "#" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/muhammed-nasif/" },
     { icon: <FaGithub />, link: "#" },
-    { icon: <FaInstagram />, link: "#" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/naaaasieee/profilecard/?igsh=MTM3YmJvbDhtZmdwaQ==" },
   ];
 
   return (

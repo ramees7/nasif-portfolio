@@ -11,6 +11,50 @@
     "roles": {
       "freelancer": "Freelancer",
       "developer": "Developer"
+    },
+    "colorSwitcher": "Color Switcher"
+  },
+  "about": {
+    "mainHead": {
+      "head": "About Me",
+      "subHead": "Know Me More"
+    },
+    "aboutDesc": {
+      "iam": "I'm",
+      "name": "Nasif",
+      "category": "a Flutter Developer",
+      "description": "As a dedicated Flutter Developer at Doctosmart Enterprises Pvt. Ltd., I specialize in crafting innovative and user-centric mobile applications. With a keen eye for detail and a passion for technology, I am committed to delivering high-quality solutions that exceed expectations. Leveraging the power of Flutter, I create cross-platform apps that are both visually stunning and functionally robust."
+    },
+    "details": {
+      "nameHead": "Name",
+      "nameCont": "Nasif",
+      "emailHead": "Email",
+      "emailCont": "connect.tonasif@gmail.com",
+      "ageHead": "Age",
+      "ageCont": "22",
+      "fromHead": "From",
+      "fromCont": "Kerala ,india",
+      "download": "Download CV"
+    },
+    "statistics": {
+      "experience": "Year Experience",
+      "clients": "Happy Clients",
+      "projects": "Projects Done",
+      "awards": "Get Awards"
     }
+  },
+  "service": {
+    "mainHead": {
+      "head": "Services",
+      "subHead": "What I Do "
+    },
+    "serviceTitleApp": "App Design and Development",
+    "descApp": "We design and develop stunning mobile apps for iOS and Android.",
+    "serviceTitleDM": "Digital Marketing",
+    "descDM": "Boost your online visibility with our effective digital marketing strategies.",
+    "serviceTitleWeb": "Web Development",
+    "descWeb": "We build responsive and user-friendly websites tailored to your needs.",
+    "serviceTitleGraphic": "Graphic Designing",
+    "descGraphic": "Elevate your brand with our creative graphic design solutions."
   }
 }

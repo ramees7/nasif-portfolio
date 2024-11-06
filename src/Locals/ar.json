@@ -1,16 +1,60 @@
 {
-    "landing": {
-      "navbar": {
-        "about": "حول",
-        "resume": "السيرة الذاتية",
-        "portfolio": "المحفظة",
-        "contact": "اتصل بنا"
-      },
+  "landing": {
+    "navbar": {
+      "about": "حول",
+      "resume": "السيرة الذاتية",
+      "portfolio": "المحفظة",
+      "contact": "اتصل بنا"
+    },
+    "name": "ناصيف",
+    "greeting": "أنا",
+    "roles": {
+      "freelancer": "مستقل",
+      "developer": "مطور"
+    },
+    "colorSwitcher": "مُبدّل الألوان"
+  },
+  "about": {
+    "mainHead": {
+      "head": "عنّي",
+      "subHead": "تعرف عليّ أكثر"
+    },
+    "aboutDesc": {
+      "iam": "أنا",
       "name": "ناصيف",
-      "greeting": "أنا",
-      "roles": {
-        "freelancer": "مستقل",
-        "developer": "مطور"
-      }
+      "category": "مطور Flutter",
+      "description": "كمطور Flutter متخصص في شركة Doctosmart Enterprises Pvt. Ltd.، أنا متخصص في تصميم تطبيقات جوال مبتكرة تركز على المستخدم. مع حرصي الشديد على التفاصيل وشغفي بالتقنية، أنا ملتزم بتقديم حلول عالية الجودة تتجاوز التوقعات. باستخدام قوة Flutter، أقوم بإنشاء تطبيقات متعددة المنصات مذهلة بصريًا وقوية وظيفيًا."
+    },
+    "details": {
+      "nameHead": "الاسم",
+      "nameCont": "ناصيف",
+      "emailHead": "البريد الإلكتروني",
+      "emailCont": "connect.tonasif@gmail.com",
+      "ageHead": "العمر",
+      "ageCont": "22",
+      "fromHead": "من",
+      "fromCont": "كيرالا ، الهند",
+      "download": "تحميل السيرة الذاتية"
+    },
+    "statistics": {
+      "experience": "سنوات الخبرة",
+      "clients": "عملاء سعداء",
+      "projects": "المشاريع المنفذة",
+      "awards": "الحصول على جوائز"
     }
+  },
+  "service": {
+    "mainHead": {
+      "head": "الخدمات",
+      "subHead": "ما أقوم به"
+    },
+    "serviceTitleApp": "تصميم وتطوير التطبيقات",
+    "descApp": "نحن نصمم ونطور تطبيقات الهاتف المحمول المذهلة لنظامي iOS و Android.",
+    "serviceTitleDM": "التسويق الرقمي",
+    "descDM": "عزز حضورك عبر الإنترنت من خلال استراتيجيات التسويق الرقمي الفعالة لدينا.",
+    "serviceTitleWeb": "تطوير الويب",
+    "descWeb": "نحن نبني مواقع ويب سريعة الاستجابة وصديقة للمستخدم مصممة خصيصًا لاحتياجاتك.",
+    "serviceTitleGraphic": "التصميم الجرافيكي",
+    "descGraphic": "ارتقِ بعلامتك التجارية من خلال حلول التصميم الجرافيكي الإبداعية لدينا."
   }
+}
