@@ -6,7 +6,7 @@ export const ColorContext = createContext();
 export function ColorProvider({ children }) {
 //   const [textColor, setTextColor] = useState("#808080");
 const [textColor, setTextColor] = useState(() => {
-    return localStorage.getItem("textColor") || "#808080";
+    return localStorage.getItem("textColor") || "#3498db";
   });
 
   // Save the color to localStorage whenever it changes

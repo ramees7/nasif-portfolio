@@ -77,11 +77,12 @@ export default function Landing() {
     >
       {/* Navbar */}
       <nav className="absolute top-0 left-0 w-full p-8 flex justify-between items-center z-50">
-        <img
+        {/* <img
           src="https://harnishdesign.net/demo/html/simone/images/logo-light.png"
           alt="logo"
           className="w-[80px]"
-        />
+        /> */}
+        <h1 className="text-2xl">Nasif</h1>
         <div className="hidden md:flex space-x-6 text-sm uppercase items-center">
           {navLists.map((item, ind) => (
             <ScrollLink
@@ -136,7 +137,7 @@ export default function Landing() {
 
       {/* Main Content */}
       <div className="flex flex-col sm:justify-center justify-end pb-10 sm:pb-0 h-full px-16 md:px-32 lg:px-48 xl:px-64">
-        <h1 className="md:text-7xl text-5xl font-bold mb-4">
+        <h1 className="md:text-8xl text-6xl font-bold mb-4">
           {t("landing.name")}
         </h1>
         <p className="md:text-3xl text-2xl">

@@ -37,14 +37,15 @@ export default function App() {
   }, []);
 
   return (
-    <div className={`text-${textColor}`}>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
         {!isOpen && (
           <div
-            className="fixed right-2 top-1/2 transform -translate-y-1/2 text-white cursor-pointer"
+            className="fixed right-2 top-1/2 transform -translate-y-1/2  cursor-pointer"
+            style={{ color: textColor }}
             onClick={() => setIsOpen(!isOpen)}
           >
             <FaCog size={24} />
@@ -53,7 +54,7 @@ export default function App() {
         {isOpen && (
           <div
             ref={colorBoxRef}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg px-7 py-4 delay-500 rounded-lg"
+            className="fixed right-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg px-7 py-4 delay-500 rounded-lg"
           >
             <div className="flex justify-between items-center mb-4 border-b text-lg font-semibold">
               <h2>Color Switcher</h2>
