@@ -29,7 +29,7 @@
     },
     "details": {
       "nameHead": "Name",
-      "nameCont": "Nasif",
+      "nameCont": "Muhammed Nasif A",
       "emailHead": "Email",
       "emailCont": "connect.tonasif@gmail.com",
       "ageHead": "Age",
@@ -59,10 +59,23 @@
     "serviceTitleGraphic": "Graphic Designing",
     "descGraphic": "Elevate your brand with our creative graphic design solutions."
   },
+
+  "resume": {
+    "mainHead": {
+      "head": "Summary",
+      "subHead": "Resume"
+    }
+  },
   "skills": {
     "mainHead": {
       "head": "Skills",
       "subHead": "My Expertise"
+    }
+  },
+  "portfolio": {
+    "mainHead": {
+      "head": "Portfolio",
+      "subHead": "My Work"
     }
   },
   "contact": {

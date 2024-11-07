@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ColorContext } from "../context/ColorContextShare";
 import { useTranslation } from "react-i18next";
+import cvPDF from "../assets/nasif-cv.pdf";
 
 export default function About() {
   const { textColor } = useContext(ColorContext);
@@ -96,12 +97,17 @@ export default function About() {
               {t("about.details.fromCont")}
             </li>
           </ul>
-          <button
-            className="mt-6 w-fit px-6 py-2 rounded-md text-white font-semibold"
-            style={{ backgroundColor: textColor }}
-          >
-            {t("about.details.download")}
-          </button>
+          <div className="mt-6">
+            <a
+              href={cvPDF}
+              target="_blank"
+              download="Nasif_CV.pdf"
+              className=" w-fit px-6 py-2 rounded-md text-white font-semibold"
+              style={{ backgroundColor: textColor }}
+            >
+              {t("about.details.download")}
+            </a>
+          </div>
         </div>
       </div>
 

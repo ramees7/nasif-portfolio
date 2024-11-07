@@ -8,12 +8,19 @@ export default function Skills() {
   const { t } = useTranslation();
 
   const skills = [
-    { name: "Web Design", level: 65 },
-    { name: "HTML/CSS", level: 95 },
-    { name: "JavaScript", level: 80 },
-    { name: "React JS", level: 70 },
-    { name: "Angular JS", level: 80 },
-    { name: "Bootstrap", level: 99 },
+    { name: "Flutter App (Android, iOS, Web)", level: 65 },
+    { name: "Code Structure & Clean Architecture", level: 95 },
+    { name: "GitHub", level: 80 },
+    { name: " Android Studio", level: 70 },
+    { name: "Bloc", level: 80 },
+    { name: "GetX", level: 80 },
+    { name: "Cubit", level: 80 },
+    { name: "Firebase", level: 80 },
+    { name: "Firestore", level: 80 },
+    { name: " Cloud Messaging", level: 80 },
+    { name: "API Integration", level: 80 },
+    { name: "Debugging", level: 80 },
+    { name: "App Maintenance", level: 80 },
   ];
 
   return (
@@ -37,7 +44,7 @@ export default function Skills() {
 
       <section className=" text-white py-12">
         <div className=" mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-2  gap-8">
             {skills.map((skill, index) => (
               <div key={index} className="mb-4">
                 <div className="flex justify-between mb-1">

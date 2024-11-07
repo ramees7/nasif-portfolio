@@ -29,7 +29,7 @@
     },
     "details": {
       "nameHead": "الاسم",
-      "nameCont": "ناصيف",
+      "nameCont": "محمد نصيف أ",
       "emailHead": "البريد الإلكتروني",
       "emailCont": "connect.tonasif@gmail.com",
       "ageHead": "العمر",
@@ -59,10 +59,22 @@
     "serviceTitleGraphic": "التصميم الجرافيكي",
     "descGraphic": "ارتقِ بعلامتك التجارية من خلال حلول التصميم الجرافيكي الإبداعية لدينا."
   },
+  "resume": {
+    "mainHead": {
+      "head": "ملخص",
+      "subHead": "السيرة الذاتية"
+    }
+  },
   "skills": {
     "mainHead": {
       "head": "مهارات",
       "subHead": "خبراتي"
+    }
+  },
+  "portfolio": {
+    "mainHead": {
+      "head": "المحفظة",
+      "subHead": "أعمالي"
     }
   },
   "contact": {

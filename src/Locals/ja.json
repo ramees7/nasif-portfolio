@@ -29,7 +29,7 @@
     },
     "details": {
       "nameHead": "名前",
-      "nameCont": "ナスィフ",
+      "nameCont": "ムハンマド・ナシフ・A",
       "emailHead": "メールアドレス",
       "emailCont": "connect.tonasif@gmail.com",
       "ageHead": "年齢",
@@ -59,10 +59,23 @@
     "serviceTitleGraphic": "グラフィックデザイン",
     "descGraphic": "クリエイティブなグラフィックデザインソリューションでブランドを高めます。"
   },
+
+  "resume": {
+    "mainHead": {
+      "head": "概要",
+      "subHead": "履歴書"
+    }
+  },
   "skills": {
     "mainHead": {
       "head": "スキル",
       "subHead": "私の専門分野"
+    }
+  },
+  "portfolio": {
+    "mainHead": {
+      "head": "ポートフォリオ",
+      "subHead": "私の作品"
     }
   },
   "contact": {

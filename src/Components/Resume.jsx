@@ -8,56 +8,56 @@ export default function Resume() {
 
   const education = [
     {
-      startYear: 2020,
-      endYear: 2020,
-      dept: "Computer Science",
-      university: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      startYear: "Mar 2024",
+      endYear: "Apr 2024",
+      dept: "Flutter Developer Intern",
+      university: "Doctosmart Enterprises, CyberPark Calicut",
+      desc: "Developed Flutter apps, integrated APIs, and optimized performance.",
     },
     {
-      startYear: 2020,
-      endYear: 2020,
-      dept: "Computer Science",
-      university: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      startYear: "Sep 2023",
+      endYear: "Dec 2023",
+      dept: "Flutter Developer Intern",
+      university: "CodmeHub International Pvt Ltd, Calicut",
+      desc: "Built responsive Flutter UI and collaborated on team projects.",
     },
     {
-      startYear: 2020,
+      startYear: 2017,
       endYear: 2020,
       dept: "Computer Science",
-      university: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      university: "University of Calicut",
+      desc: "Bachelor's degree in Computer Science, focused on software development and algorithms.",
     },
     {
-      startYear: 2020,
-      endYear: 2020,
-      dept: "Computer Science",
-      university: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      startYear: 2015,
+      endYear: 2017,
+      dept: "Computer Science +2",
+      university: "Kerala State",
+      desc: "Higher secondary education with a focus on programming and problem-solving.",
     },
   ];
 
   const experience = [
     {
-      startYear: 2020,
-      endYear: 2020,
-      dept: "Computer Science",
-      company: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      startYear: "Mar 2024",
+      endYear: "Present",
+      dept: "Jr Flutter Developer & Trainer",
+      company: "Doctosmart Enterprises Pvt Ltd, Calicut",
+      desc: "Sharpened my expertise in the Flutter framework and Dart programming language",
     },
     {
-      startYear: 2020,
-      endYear: 2020,
-      dept: "Computer Science",
-      company: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      startYear: "May 2022",
+      endYear: "May 2023",
+      dept: "Flutter Developer",
+      company: "Repadtech Pvt Ltd, Malappuram",
+      desc: "Contribute to the development of software applications or components",
     },
     {
-      startYear: 2020,
-      endYear: 2020,
-      dept: "Computer Science",
-      company: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      startYear: "Sep 2023",
+      endYear: "Feb 2024",
+      dept: "Flutter Developer - Intern",
+      company: "Vitez Software Pvt Ltd, Calicut",
+      desc: "Contribute to the development of software applications or components",
     },
   ];
   return (
@@ -69,12 +69,12 @@ export default function Resume() {
           className="absolute text-7xl md:text-9xl font-bold opacity-20 uppercase"
           style={{ color: textColor }}
         >
-          Summary
+          {t("resume.mainHead.head")}
         </h1>
 
         {/* Foreground Title with Underline */}
         <h2 className="relative text-2xl md:text-3xl font-semibold z-10 text-white">
-          Resume
+          {t("resume.mainHead.head")}
           <span
             className="block w-12 h-1 md:mt-2 mt-1 mx-auto"
             style={{ backgroundColor: textColor }}
