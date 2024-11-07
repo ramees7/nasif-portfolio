@@ -55,7 +55,9 @@ export default function Landing() {
 
   const navLists = [
     { name: t("landing.navbar.about"), link: "about" },
+    { name: t("landing.navbar.service"), link: "Service" },
     { name: t("landing.navbar.resume"), link: "resume" },
+    { name: t("landing.navbar.skills"), link: "skills" },
     { name: t("landing.navbar.portfolio"), link: "portfolio" },
     { name: t("landing.navbar.contact"), link: "contact" },
   ];

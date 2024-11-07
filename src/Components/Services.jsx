@@ -54,7 +54,7 @@ export default function Services() {
       <div className="grid md:grid-cols-2 gap-10 mt-14">
         {services.map((item, ind) => (
           <div className="flex items-center p-4 gap-5" key={ind}>
-            <div className="bg-gray-700 p-3 rounded-md">
+            <div className="bg-[#111827] p-3 rounded-md">
               <span className="text-4xl" style={{ color: textColor }}>
                 {item.icon}
               </span>

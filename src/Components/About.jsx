@@ -76,7 +76,10 @@ export default function About() {
               <span className="font-semibold text-white">
                 {t("about.details.emailHead")}:
               </span>{" "}
-              <a href="mailto:connect.tonasif@gmail.com" style={{ color: textColor }}>
+              <a
+                href="mailto:connect.tonasif@gmail.com"
+                style={{ color: textColor }}
+              >
                 {t("about.details.emailCont")}
               </a>
             </li>
@@ -106,10 +109,8 @@ export default function About() {
       <div className="flex flex-wrap justify-between items-center mt-10 text-center text-white border-t border-gray-700 pt-10">
         {statistics?.map((item, ind) => (
           <div className="w-1/2 md:w-1/4 mb-6 md:mb-0" key={ind}>
-            <h4 className="text-4xl font-bold" style={{ color: textColor }}>
-              {item.count}
-            </h4>
-            <p>{item.desc}</p>
+            <h4 className="text-4xl font-bold">{item.count}</h4>
+            <p className="text-gray-700">{item.desc}</p>
           </div>
         ))}
       </div>

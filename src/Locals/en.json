@@ -2,7 +2,9 @@
   "landing": {
     "navbar": {
       "about": "About",
+      "service": "Service",
       "resume": "Resume",
+      "skills": "Skills",
       "portfolio": "Portfolio",
       "contact": "Contact"
     },
@@ -56,5 +58,20 @@
     "descWeb": "We build responsive and user-friendly websites tailored to your needs.",
     "serviceTitleGraphic": "Graphic Designing",
     "descGraphic": "Elevate your brand with our creative graphic design solutions."
+  },
+  "skills": {
+    "mainHead": {
+      "head": "Skills",
+      "subHead": "My Expertise"
+    }
+  },
+  "contact": {
+    "mainHead": {
+      "head": "Contact",
+      "subHead": "Get In Touch"
+    },
+    "dontbeshy": "DON'T BE SHY!",
+    "desc": "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+    "sendMessage": "SEND MESSAGE"
   }
 }
