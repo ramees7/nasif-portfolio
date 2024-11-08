@@ -1,4 +1,5 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import {
   FaTwitter,
@@ -56,18 +57,24 @@ export default function Landing() {
   const navLists = [
     { name: t("landing.navbar.about"), link: "about" },
     { name: t("landing.navbar.service"), link: "Service" },
-    { name: t("landing.navbar.resume"), link: "resume" },
+    // { name: t("landing.navbar.resume"), link: "resume" },
     { name: t("landing.navbar.skills"), link: "skills" },
-    { name: t("landing.navbar.portfolio"), link: "portfolio" },
+    { name: t("landing.navbar.portfolio"), link: "/portfolio" },
     { name: t("landing.navbar.contact"), link: "contact" },
   ];
 
   const socialIcons = [
     { icon: <FaTwitter />, link: "#" },
     { icon: <FaFacebook />, link: "#" },
-    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/muhammed-nasif/" },
+    {
+      icon: <FaLinkedin />,
+      link: "https://www.linkedin.com/in/muhammed-nasif/",
+    },
     { icon: <FaGithub />, link: "#" },
-    { icon: <FaInstagram />, link: "https://www.instagram.com/naaaasieee/profilecard/?igsh=MTM3YmJvbDhtZmdwaQ==" },
+    {
+      icon: <FaInstagram />,
+      link: "https://www.instagram.com/naaaasieee/profilecard/?igsh=MTM3YmJvbDhtZmdwaQ==",
+    },
   ];
 
   return (
@@ -86,17 +93,27 @@ export default function Landing() {
         /> */}
         <h1 className="text-2xl">Nasif</h1>
         <div className="hidden md:flex space-x-6 text-sm uppercase items-center">
-          {navLists.map((item, ind) => (
-            <ScrollLink
-              key={`nav-${ind}`}
-              to={item.link}
-              smooth={true}
-              duration={1000}
-              className="cursor-pointer hover:text-gray-500"
-            >
-              {item.name}
-            </ScrollLink>
-          ))}
+          {navLists.map((item, ind) =>
+            item.link.startsWith("/") ? (
+              <RouterLink
+                key={`nav-${ind}`}
+                to={item.link}
+                className="cursor-pointer hover:text-gray-500"
+              >
+                {item.name}
+              </RouterLink>
+            ) : (
+              <ScrollLink
+                key={`nav-${ind}`}
+                to={item.link}
+                smooth={true}
+                duration={1000}
+                className="cursor-pointer hover:text-gray-500"
+              >
+                {item.name}
+              </ScrollLink>
+            )
+          )}
         </div>
         {/* Off-Canvas Menu Toggle Button */}
         <button
@@ -138,13 +155,22 @@ export default function Landing() {
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-col sm:justify-center justify-end pb-10 sm:pb-0 h-full px-16 md:px-32 lg:px-48 xl:px-64">
-        <h1 className="md:text-8xl text-6xl font-bold mb-4">
-          {t("landing.name")}
+      <div className="flex flex-col justify-end pb-10 sm:pb-40 h-full px-16 md:px-32 lg:px-48">
+        <h1 className="md:text-7xl text-5xl font-bold mb-4">
+          {/* {t("landing.name")} */}
+          {t("landing.name")
+            .split(" ")
+            .map((part, index) => (
+              <React.Fragment key={index}>
+                {part} {index === 0 && <br />}
+              </React.Fragment>
+            ))}
         </h1>
         <p className="md:text-3xl text-2xl">
           {t("landing.greeting")}{" "}
-          <span className=" font-semibold" style={{color:textColor}}>{displayText}</span>
+          <span className=" font-semibold" style={{ color: textColor }}>
+            {displayText}
+          </span>
         </p>
       </div>
 
@@ -172,7 +198,9 @@ export default function Landing() {
       </div>
 
       {/* Social Icons */}
-      <div className={`absolute bottom-8 right-8 flex flex-col space-y-4 text-2xl`}>
+      <div
+        className={`absolute bottom-8 right-8 flex flex-col space-y-4 text-2xl`}
+      >
         {socialIcons.map((item, ind) => (
           <a key={ind} href={item.link} className="hover:text-gray-500">
             {item.icon}

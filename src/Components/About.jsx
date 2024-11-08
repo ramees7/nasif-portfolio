@@ -1,3 +1,4 @@
+
 import React, { useContext } from "react";
 import { ColorContext } from "../context/ColorContextShare";
 import { useTranslation } from "react-i18next";
@@ -25,6 +26,116 @@ export default function About() {
       desc: t("about.statistics.awards"),
     },
   ];
+
+  const education = [
+    {
+      startYear: `${t("resume.dates.mar")} 2024`,
+      endYear: `${t("resume.dates.apr")} 2024`,
+      dept: t("resume.education.dept.flutterDeveloperIntern"),
+      university: t("resume.education.university.doctosmartEnterprises"),
+      desc: t("resume.education.desc.flutterAppsApiOptimization"),
+    },
+    {
+      startYear: `${t("resume.dates.sep")} 2023`,
+      endYear: `${t("resume.dates.dec")} 2023`,
+      dept: t("resume.education.dept.flutterDeveloperIntern"),
+      university: t("resume.education.university.codmeHub"),
+      desc: t("resume.education.desc.responsiveUI"),
+    },
+    {
+      startYear: "2017",
+      endYear: "2020",
+      dept: t("resume.education.dept.computerScience"),
+      university: t("resume.education.university.universityOfCalicut"),
+      desc: t("resume.education.desc.bachelorsDegreeCS"),
+    },
+    {
+      startYear: "2015",
+      endYear: "2017",
+      dept: t("resume.education.dept.computerSciencePlus2"),
+      university: t("resume.education.university.keralaState"),
+      desc: t("resume.education.desc.higherSecondaryEducation"),
+    },
+  ];
+
+  const experience = [
+    {
+      startYear: `${t("resume.dates.mar")} 2024`,
+      endYear: `${t("resume.dates.present")}`,
+      dept: t("resume.experience.dept.jrFlutterDeveloperTrainer"),
+      company: t("resume.experience.company.doctosmartEnterprises"),
+      desc: t("resume.experience.desc.flutterExpertise"),
+    },
+    {
+      startYear: `${t("resume.dates.may")} 2022`,
+      endYear: `${t("resume.dates.may")} 2023`,
+      dept: t("resume.experience.dept.flutterDeveloper"),
+      company: t("resume.experience.company.repadtech"),
+      desc: t("resume.experience.desc.contributeSoftwareApplications"),
+    },
+    {
+      startYear: `${t("resume.dates.sep")} 2023`,
+      endYear: `${t("resume.dates.feb")} 2024`,
+      dept: t("resume.experience.dept.flutterDeveloperIntern"),
+      company: t("resume.experience.company.vitezSoftware"),
+      desc: t("resume.experience.desc.contributeSoftwareApplications"),
+    },
+  ];
+
+  // const education = [
+  //   {
+  //     startYear: "Mar 2024",
+  //     endYear: "Apr 2024",
+  //     dept: "Flutter Developer Intern",
+  //     university: "Doctosmart Enterprises, CyberPark Calicut",
+  //     desc: "Developed Flutter apps, integrated APIs, and optimized performance.",
+  //   },
+  //   {
+  //     startYear: "Sep 2023",
+  //     endYear: "Dec 2023",
+  //     dept: "Flutter Developer Intern",
+  //     university: "CodmeHub International Pvt Ltd, Calicut",
+  //     desc: "Built responsive Flutter UI and collaborated on team projects.",
+  //   },
+  //   {
+  //     startYear: 2017,
+  //     endYear: 2020,
+  //     dept: "Computer Science",
+  //     university: "University of Calicut",
+  //     desc: "Bachelor's degree in Computer Science, focused on software development and algorithms.",
+  //   },
+  //   {
+  //     startYear: 2015,
+  //     endYear: 2017,
+  //     dept: "Computer Science +2",
+  //     university: "Kerala State",
+  //     desc: "Higher secondary education with a focus on programming and problem-solving.",
+  //   },
+  // ];
+
+  // const experience = [
+  //   {
+  //     startYear: "Mar 2024",
+  //     endYear: "Present",
+  //     dept: "Jr Flutter Developer & Trainer",
+  //     company: "Doctosmart Enterprises Pvt Ltd, Calicut",
+  //     desc: "Sharpened my expertise in the Flutter framework and Dart programming language",
+  //   },
+  //   {
+  //     startYear: "May 2022",
+  //     endYear: "May 2023",
+  //     dept: "Flutter Developer",
+  //     company: "Repadtech Pvt Ltd, Malappuram",
+  //     desc: "Contribute to the development of software applications or components",
+  //   },
+  //   {
+  //     startYear: "Sep 2023",
+  //     endYear: "Feb 2024",
+  //     dept: "Flutter Developer - Intern",
+  //     company: "Vitez Software Pvt Ltd, Calicut",
+  //     desc: "Contribute to the development of software applications or components",
+  //   },
+  // ];
 
   return (
     <div className="text-white bg-black  p-10 md:px-20 ">
@@ -110,16 +221,77 @@ export default function About() {
           </div>
         </div>
       </div>
-
+      <div className="grid md:grid-cols-2 gap-10 mt-20">
+        <div>
+          <h1 className="mb-3 text-2xl font-semibold">Education</h1>
+          {education?.map((item, ind) => (
+            <div
+              className="bg-[#111827] md:mb-10 mb-5 w-full md:p-8 p-5 md:min-h-[200px]"
+              key={ind}
+            >
+              <div className="flex justify-between gap-x-2 md:mb-0 mb-2">
+                <h1 className=" text-lg font-semibold  md:hidden ">
+                  {item.dept}
+                </h1>
+                <div
+                  className="px-2 rounded-sm w-fit text-xs py-1 font-semibold flex items-center"
+                  style={{ backgroundColor: textColor }}
+                >
+                  <span>
+                    {item.startYear}-{item.endYear}
+                  </span>
+                </div>
+              </div>
+              <h1 className="text-3xl font-semibold my-3 md:block hidden">
+                {item.dept}
+              </h1>
+              <h3 className="md:text-lg text-base" style={{ color: textColor }}>
+                {item.university}
+              </h3>
+              <h5 className="md:text-sm text-xs text-gray-400">{item.desc}</h5>
+            </div>
+          ))}
+        </div>
+        <div>
+          <h1 className="mb-3 text-2xl font-semibold">Experience</h1>
+          {experience?.map((item, ind) => (
+            <div
+              className="bg-[#111827] md:mb-10 mb-5 w-full md:p-8 p-5 md:min-h-[200px]"
+              key={ind}
+            >
+              <div className="flex justify-between gap-x-2 md:mb-0 mb-2">
+                <h1 className=" text-lg font-semibold  md:hidden ">
+                  {item.dept}
+                </h1>
+                <div
+                  className="px-2 rounded-sm w-fit text-xs py-1 font-semibold flex items-center"
+                  style={{ backgroundColor: textColor }}
+                >
+                  <span>
+                    {item.startYear}-{item.endYear}
+                  </span>
+                </div>
+              </div>
+              <h1 className="text-3xl font-semibold my-3 md:block hidden">
+                {item.dept}
+              </h1>
+              <h3 className="md:text-lg text-base" style={{ color: textColor }}>
+                {item.company}
+              </h3>
+              <h5 className="md:text-sm text-xs text-gray-400">{item.desc}</h5>
+            </div>
+          ))}
+        </div>
+      </div>
       {/* Statistics Section */}
-      <div className="flex flex-wrap justify-between items-center mt-10 text-center text-white border-t border-gray-700 pt-10">
+      {/* <div className="flex flex-wrap justify-between items-center mt-10 text-center text-white border-t border-gray-700 pt-10">
         {statistics?.map((item, ind) => (
           <div className="w-1/2 md:w-1/4 mb-6 md:mb-0" key={ind}>
             <h4 className="text-4xl font-bold">{item.count}</h4>
             <p className="text-gray-700">{item.desc}</p>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

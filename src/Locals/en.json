@@ -8,7 +8,7 @@
       "portfolio": "Portfolio",
       "contact": "Contact"
     },
-    "name": "Nasif",
+    "name": "Muhammed Nasif A",
     "greeting": "I'm a",
     "roles": {
       "freelancer": "Freelancer",
@@ -23,7 +23,7 @@
     },
     "aboutDesc": {
       "iam": "I'm",
-      "name": "Nasif",
+      "name": "Muhammed Nasif A",
       "category": "a Flutter Developer",
       "description": "As a dedicated Flutter Developer at Doctosmart Enterprises Pvt. Ltd., I specialize in crafting innovative and user-centric mobile applications. With a keen eye for detail and a passion for technology, I am committed to delivering high-quality solutions that exceed expectations. Leveraging the power of Flutter, I create cross-platform apps that are both visually stunning and functionally robust."
     },
@@ -64,12 +64,72 @@
     "mainHead": {
       "head": "Summary",
       "subHead": "Resume"
+    },
+    "educationHead":"Education",
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "Flutter Developer Intern",
+        "computerScience": "Computer Science",
+        "computerSciencePlus2": "Computer Science +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "Doctosmart Enterprises, CyberPark Calicut",
+        "codmeHub": "CodmeHub International Pvt Ltd, Calicut",
+        "universityOfCalicut": "University of Calicut",
+        "keralaState": "Kerala State"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "Developed Flutter apps, integrated APIs, and optimized performance.",
+        "responsiveUI": "Built responsive Flutter UI and collaborated on team projects.",
+        "bachelorsDegreeCS": "Bachelor's degree in Computer Science, focused on software development and algorithms.",
+        "higherSecondaryEducation": "Higher secondary education with a focus on programming and problem-solving."
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "Jr Flutter Developer & Trainer",
+        "flutterDeveloper": "Flutter Developer",
+        "flutterDeveloperIntern": "Flutter Developer - Intern"
+      },
+      "company": {
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd, Calicut",
+        "repadtech": "Repadtech Pvt Ltd, Malappuram",
+        "vitezSoftware": "Vitez Software Pvt Ltd, Calicut"
+      },
+      "desc": {
+        "flutterExpertise": "Sharpened my expertise in the Flutter framework and Dart programming language.",
+        "contributeSoftwareApplications": "Contributed to the development of software applications or components."
+      }
+    },
+    "dates": {
+      "mar": "Mar",
+      "apr": "Apr",
+      "sep": "Sep",
+      "dec": "Dec",
+      "may": "May",
+      "feb": "Feb",
+      "present": "Present"
     }
   },
   "skills": {
     "mainHead": {
       "head": "Skills",
       "subHead": "My Expertise"
+    },
+    "lists": {
+      "flutter": "Flutter App (Android, iOS, Web)",
+      "structure": "Code Structure & Clean Architecture",
+      "github": "GitHub",
+      "androidStudio": "Android Studio",
+      "bloc": "Bloc",
+      "getX": "GetX",
+      "cubit": "Cubit",
+      "firebase": "Firebase",
+      "firestore": "Firestore",
+      "cloudMessaging": "Cloud Messaging",
+      "apiIntegration": "API Integration",
+      "debugging": "Debugging",
+      "appMaintenance": "App Maintenance"
     }
   },
   "portfolio": {

@@ -7,6 +7,7 @@ import { IoClose } from "react-icons/io5";
 import { ColorContext } from "./context/ColorContextShare";
 import "./App.css";
 import { useTranslation } from "react-i18next";
+import Portfolio from "./Components/Portfolio";
 
 export default function App() {
   const { textColor, setTextColor } = useContext(ColorContext);
@@ -43,6 +44,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
         {!isOpen && (
           <div

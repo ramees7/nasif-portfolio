@@ -51,17 +51,17 @@ export default function Services() {
           ></span>
         </h2>
       </div>
-      <div className="grid md:grid-cols-2 gap-10 mt-14">
+      <div className="grid grid-cols-2 md:gap-10 gap-x-2 gap-y-5 md:mt-14 mt-10">
         {services.map((item, ind) => (
-          <div className="flex items-center p-4 gap-5" key={ind}>
+          <div className="flex items-center md:p-4 p-1 md:gap-5 gap-2" key={ind}>
             <div className="bg-[#111827] p-3 rounded-md">
-              <span className="text-4xl" style={{ color: textColor }}>
+              <span className="md:text-4xl text-2xl" style={{ color: textColor }}>
                 {item.icon}
               </span>
             </div>
             <div>
-              <h1 className="text-2xl font-semibold">{item.title}</h1>
-              <h3 className="text-base mt-1 text-gray-400">{item.desc}</h3>
+              <h1 className="md:text-2xl text-base font-semibold">{item.title}</h1>
+              <h3 className="md:text-base text-xs mt-1 text-gray-400">{item.desc}</h3>
             </div>
           </div>
         ))}

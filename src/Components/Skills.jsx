@@ -8,21 +8,20 @@ export default function Skills() {
   const { t } = useTranslation();
 
   const skills = [
-    { name: "Flutter App (Android, iOS, Web)", level: 65 },
-    { name: "Code Structure & Clean Architecture", level: 95 },
-    { name: "GitHub", level: 80 },
-    { name: " Android Studio", level: 70 },
-    { name: "Bloc", level: 80 },
-    { name: "GetX", level: 80 },
-    { name: "Cubit", level: 80 },
-    { name: "Firebase", level: 80 },
-    { name: "Firestore", level: 80 },
-    { name: " Cloud Messaging", level: 80 },
-    { name: "API Integration", level: 80 },
-    { name: "Debugging", level: 80 },
-    { name: "App Maintenance", level: 80 },
+    { name: t("skills.lists.flutter"), level: 65 },
+    { name: t("skills.lists.structure"), level: 95 },
+    { name: t("skills.lists.github"), level: 80 },
+    { name: t("skills.lists.androidStudio"), level: 70 },
+    { name: t("skills.lists.bloc"), level: 80 },
+    { name: t("skills.lists.getX"), level: 80 },
+    { name: t("skills.lists.cubit"), level: 80 },
+    { name: t("skills.lists.firebase"), level: 80 },
+    { name: t("skills.lists.firestore"), level: 80 },
+    { name: t("skills.lists.cloudMessaging"), level: 80 },
+    { name: t("skills.lists.apiIntegration"), level: 80 },
+    { name: t("skills.lists.debugging"), level: 80 },
+    { name: t("skills.lists.appMaintenance"), level: 80 },
   ];
-
   return (
     <div className="text-white bg-black p-10 md:px-20">
       {/* Header Section */}
@@ -42,9 +41,9 @@ export default function Skills() {
         </h2>
       </div>
 
-      <section className=" text-white py-12">
+      <section className=" text-white pt-12">
         <div className=" mx-auto px-4">
-          <div className="grid lg:grid-cols-3 sm:grid-cols-2  gap-8">
+          <div className="grid lg:grid-cols-3 grid-cols-2  gap-8">
             {skills.map((skill, index) => (
               <div key={index} className="mb-4">
                 <div className="flex justify-between mb-1">

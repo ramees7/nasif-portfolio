@@ -1,0 +1,794 @@
+{
+  "landing": {
+    "navbar": {
+      "about": "About",
+      "service": "Service",
+      "resume": "Resume",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "name": "Muhammed Nasif A",
+    "greeting": "I'm a",
+    "roles": {
+      "freelancer": "Freelancer",
+      "developer": "Developer"
+    },
+    "colorSwitcher": "Color Switcher"
+  },
+  "about": {
+    "mainHead": {
+      "head": "About Me",
+      "subHead": "Know Me More"
+    },
+    "aboutDesc": {
+      "iam": "I'm",
+      "name": "Muhammed Nasif A",
+      "category": "a Flutter Developer",
+      "description": "As a dedicated Flutter Developer at Doctosmart Enterprises Pvt. Ltd., I specialize in crafting innovative and user-centric mobile applications. With a keen eye for detail and a passion for technology, I am committed to delivering high-quality solutions that exceed expectations. Leveraging the power of Flutter, I create cross-platform apps that are both visually stunning and functionally robust."
+    },
+    "details": {
+      "nameHead": "Name",
+      "nameCont": "Muhammed Nasif A",
+      "emailHead": "Email",
+      "emailCont": "connect.tonasif@gmail.com",
+      "ageHead": "Age",
+      "ageCont": "22",
+      "fromHead": "From",
+      "fromCont": "Kerala ,india",
+      "download": "Download CV"
+    },
+    "statistics": {
+      "experience": "Year Experience",
+      "clients": "Happy Clients",
+      "projects": "Projects Done",
+      "awards": "Get Awards"
+    }
+  },
+  "service": {
+    "mainHead": {
+      "head": "Services",
+      "subHead": "What I Do "
+    },
+    "serviceTitleApp": "App Design and Development",
+    "descApp": "We design and develop stunning mobile apps for iOS and Android.",
+    "serviceTitleDM": "Digital Marketing",
+    "descDM": "Boost your online visibility with our effective digital marketing strategies.",
+    "serviceTitleWeb": "Web Development",
+    "descWeb": "We build responsive and user-friendly websites tailored to your needs.",
+    "serviceTitleGraphic": "Graphic Designing",
+    "descGraphic": "Elevate your brand with our creative graphic design solutions."
+  },
+
+  "resume": {
+    "mainHead": {
+      "head": "Summary",
+      "subHead": "Resume"
+    },
+    "educationHead":"Education",
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "Flutter Developer Intern",
+        "computerScience": "Computer Science",
+        "computerSciencePlus2": "Computer Science +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "Doctosmart Enterprises, CyberPark Calicut",
+        "codmeHub": "CodmeHub International Pvt Ltd, Calicut",
+        "universityOfCalicut": "University of Calicut",
+        "keralaState": "Kerala State"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "Developed Flutter apps, integrated APIs, and optimized performance.",
+        "responsiveUI": "Built responsive Flutter UI and collaborated on team projects.",
+        "bachelorsDegreeCS": "Bachelor's degree in Computer Science, focused on software development and algorithms.",
+        "higherSecondaryEducation": "Higher secondary education with a focus on programming and problem-solving."
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "Jr Flutter Developer & Trainer",
+        "flutterDeveloper": "Flutter Developer",
+        "flutterDeveloperIntern": "Flutter Developer - Intern"
+      },
+      "company": {
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd, Calicut",
+        "repadtech": "Repadtech Pvt Ltd, Malappuram",
+        "vitezSoftware": "Vitez Software Pvt Ltd, Calicut"
+      },
+      "desc": {
+        "flutterExpertise": "Sharpened my expertise in the Flutter framework and Dart programming language.",
+        "contributeSoftwareApplications": "Contributed to the development of software applications or components."
+      }
+    },
+    "dates": {
+      "mar": "Mar",
+      "apr": "Apr",
+      "sep": "Sep",
+      "dec": "Dec",
+      "may": "May",
+      "feb": "Feb",
+      "present": "Present"
+    }
+  },
+  "skills": {
+    "mainHead": {
+      "head": "Skills",
+      "subHead": "My Expertise"
+    },
+    "lists": {
+      "flutter": "Flutter App (Android, iOS, Web)",
+      "structure": "Code Structure & Clean Architecture",
+      "github": "GitHub",
+      "androidStudio": "Android Studio",
+      "bloc": "Bloc",
+      "getX": "GetX",
+      "cubit": "Cubit",
+      "firebase": "Firebase",
+      "firestore": "Firestore",
+      "cloudMessaging": "Cloud Messaging",
+      "apiIntegration": "API Integration",
+      "debugging": "Debugging",
+      "appMaintenance": "App Maintenance"
+    }
+  },
+  "portfolio": {
+    "mainHead": {
+      "head": "Portfolio",
+      "subHead": "My Work"
+    }
+  },
+  "contact": {
+    "mainHead": {
+      "head": "Contact",
+      "subHead": "Get In Touch"
+    },
+    "dontbeshy": "DON'T BE SHY!",
+    "desc": "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+    "sendMessage": "SEND MESSAGE"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "landing": {
+    "navbar": {
+      "about": "حول",
+      "service": " خدمة",
+      "resume": "السيرة الذاتية",
+      "skills": "مهارات",
+      "portfolio": "المحفظة",
+      "contact": "اتصل بنا"
+    },
+    "name": "ناصيف",
+    "greeting": "أنا",
+    "roles": {
+      "freelancer": "مستقل",
+      "developer": "مطور"
+    },
+    "colorSwitcher": "مُبدّل الألوان"
+  },
+  "about": {
+    "mainHead": {
+      "head": "عنّي",
+      "subHead": "تعرف عليّ أكثر"
+    },
+    "aboutDesc": {
+      "iam": "أنا",
+      "name": "ناصيف",
+      "category": "مطور Flutter",
+      "description": "كمطور Flutter متخصص في شركة Doctosmart Enterprises Pvt. Ltd.، أنا متخصص في تصميم تطبيقات جوال مبتكرة تركز على المستخدم. مع حرصي الشديد على التفاصيل وشغفي بالتقنية، أنا ملتزم بتقديم حلول عالية الجودة تتجاوز التوقعات. باستخدام قوة Flutter، أقوم بإنشاء تطبيقات متعددة المنصات مذهلة بصريًا وقوية وظيفيًا."
+    },
+    "details": {
+      "nameHead": "الاسم",
+      "nameCont": "محمد نصيف أ",
+      "emailHead": "البريد الإلكتروني",
+      "emailCont": "connect.tonasif@gmail.com",
+      "ageHead": "العمر",
+      "ageCont": "22",
+      "fromHead": "من",
+      "fromCont": "كيرالا ، الهند",
+      "download": "تحميل السيرة الذاتية"
+    },
+    "statistics": {
+      "experience": "سنوات الخبرة",
+      "clients": "عملاء سعداء",
+      "projects": "المشاريع المنفذة",
+      "awards": "الحصول على جوائز"
+    }
+  },
+  "service": {
+    "mainHead": {
+      "head": "الخدمات",
+      "subHead": "ما أقوم به"
+    },
+    "serviceTitleApp": "تصميم وتطوير التطبيقات",
+    "descApp": "نحن نصمم ونطور تطبيقات الهاتف المحمول المذهلة لنظامي iOS و Android.",
+    "serviceTitleDM": "التسويق الرقمي",
+    "descDM": "عزز حضورك عبر الإنترنت من خلال استراتيجيات التسويق الرقمي الفعالة لدينا.",
+    "serviceTitleWeb": "تطوير الويب",
+    "descWeb": "نحن نبني مواقع ويب سريعة الاستجابة وصديقة للمستخدم مصممة خصيصًا لاحتياجاتك.",
+    "serviceTitleGraphic": "التصميم الجرافيكي",
+    "descGraphic": "ارتقِ بعلامتك التجارية من خلال حلول التصميم الجرافيكي الإبداعية لدينا."
+  },
+  "resume": {
+    "mainHead": {
+      "head": "ملخص",
+      "subHead": "السيرة الذاتية"
+    },
+    "educationHead":"Educationsadfh",
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "متدرب مطور فلاتر",
+        "computerScience": "علوم الحاسوب",
+        "computerSciencePlus2": "علوم الحاسوب +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "دوكتو سمارت إنتربرايز، سايبر بارك كاليكوت",
+        "codmeHub": "كودمي هاب إنترناشونال، كاليكوت",
+        "universityOfCalicut": "جامعة كاليكوت",
+        "keralaState": "ولاية كيرالا"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "قمت بتطوير تطبيقات فلاتر، دمج واجهات برمجة التطبيقات، وتحسين الأداء.",
+        "responsiveUI": "قمت ببناء واجهات مستخدم فلاتر استجابة وتعاونت في المشاريع الفريقية.",
+        "bachelorsDegreeCS": "درجة البكالوريوس في علوم الحاسوب، مع التركيز على تطوير البرمجيات والخوارزميات.",
+        "higherSecondaryEducation": "التعليم الثانوي العالي مع التركيز على البرمجة وحل المشكلات."
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "مطور فلاتر مبتدئ ومدرب",
+        "flutterDeveloper": "مطور فلاتر",
+        "flutterDeveloperIntern": "متدرب مطور فلاتر"
+      },
+      "company": {
+        "doctosmartEnterprises": "دوكتو سمارت إنتربرايز، كاليكوت",
+        "repadtech": "ريبادتيك، مالابورام",
+        "vitezSoftware": "فيتيز سوفتوير، كاليكوت"
+      },
+      "desc": {
+        "flutterExpertise": "قمت بصقل خبرتي في إطار فلاتر ولغة البرمجة دارت.",
+        "contributeSoftwareApplications": "ساهمت في تطوير تطبيقات أو مكونات البرمجيات."
+      }
+    },
+    "dates": {
+      "mar": "مارس",
+      "apr": "أبريل",
+      "sep": "سبتمبر",
+      "dec": "ديسمبر",
+      "may": "مايو",
+      "feb": "فبراير",
+      "present": "الحالي"
+    }
+  },
+  "skills": {
+    "mainHead": {
+      "head": "مهارات",
+      "subHead": "خبراتي"
+    },
+    "lists": {
+      "flutter": "تطبيق فلاتر (Android ، iOS ، Web)",
+      "structure": "هيكل الكود وعمارة نظيفة",
+      "github": "جيت هاب",
+      "androidStudio": "أندرويد استوديو",
+      "bloc": "بلوكت",
+      "getX": "GetX",
+      "cubit": "كيوبيت",
+      "firebase": "فايربيس",
+      "firestore": "فايرستور",
+      "cloudMessaging": "رسائل السحابة",
+      "apiIntegration": "دمج API",
+      "debugging": "تصحيح الأخطاء",
+      "appMaintenance": "صيانة التطبيق"
+    }
+  },
+  "portfolio": {
+    "mainHead": {
+      "head": "المحفظة",
+      "subHead": "أعمالي"
+    }
+  },
+  "contact": {
+    "mainHead": {
+      "head": "تواصل معنا",
+      "subHead": "تواصل معنا"
+    },
+    "dontbeshy": "لا تتردد!",
+    "desc": "لا تتردد في التواصل معي. أنا دائمًا منفتح على مناقشة مشاريع جديدة أو أفكار إبداعية أو فرص للمشاركة في رؤيتك.",
+    "sendMessage": "أرسل رسالة"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "landing": {
+    "navbar": {
+      "about": "私について",
+      "service": "サービス",
+      "resume": "履歴書",
+      "skills": "スキル",
+      "portfolio": "ポートフォリオ",
+      "contact": "お問い合わせ"
+    },
+    "name": "ナスィフ",
+    "greeting": "私は",
+    "roles": {
+      "freelancer": "フリーランス",
+      "developer": "開発者"
+    },
+    "colorSwitcher": "カラー切替"
+  },
+  "about": {
+    "mainHead": {
+      "head": "私のこと",
+      "subHead": "もっと知る"
+    },
+    "aboutDesc": {
+      "iam": "私は",
+      "name": "ナスィフ",
+      "category": "Flutter 開発者",
+      "description": "Doctosmart Enterprises Pvt. Ltd. の熱心な Flutter 開発者として、私は革新的でユーザー中心のモバイルアプリケーションの作成を専門としています。細部へのこだわりとテクノロジーへの情熱を持って、私は期待を超える高品質なソリューションを提供することに取り組んでいます。Flutter の力を活用して、視覚的に魅力的で機能的に堅牢なクロスプラットフォームアプリを作成します。"
+    },
+    "details": {
+      "nameHead": "名前",
+      "nameCont": "ムハンマド・ナシフ・A",
+      "emailHead": "メールアドレス",
+      "emailCont": "connect.tonasif@gmail.com",
+      "ageHead": "年齢",
+      "ageCont": "22",
+      "fromHead": "出身",
+      "fromCont": "ケララ州、インド",
+      "download": "CV ダウンロード"
+    },
+    "statistics": {
+      "experience": "経験年数",
+      "clients": "満足したクライアント",
+      "projects": "完了したプロジェクト",
+      "awards": "受賞歴"
+    }
+  },
+  "service": {
+    "mainHead": {
+      "head": "サービス",
+      "subHead": "私がすること"
+    },
+    "serviceTitleApp": "アプリデザインと開発",
+    "descApp": "iOS と Android のための素晴らしいモバイルアプリを設計および開発します。",
+    "serviceTitleDM": "デジタルマーケティング",
+    "descDM": "効果的なデジタルマーケティング戦略でオンラインでの存在感を高めます。",
+    "serviceTitleWeb": "Web開発",
+    "descWeb": "お客様のニーズに合わせて、レスポンシブでユーザーフレンドリーなウェブサイトを構築します。",
+    "serviceTitleGraphic": "グラフィックデザイン",
+    "descGraphic": "クリエイティブなグラフィックデザインソリューションでブランドを高めます。"
+  },
+
+  "resume": {
+    "mainHead": {
+      "head": "概要",
+      "subHead": "履歴書"
+    },
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "Flutter開発者インターン",
+        "computerScience": "コンピュータサイエンス",
+        "computerSciencePlus2": "コンピュータサイエンス +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "Doctosmart Enterprises、サイバーパークカリカット",
+        "codmeHub": "CodmeHub International Pvt Ltd、カリカット",
+        "universityOfCalicut": "カリカット大学",
+        "keralaState": "ケララ州"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "Flutterアプリを開発し、APIを統合し、パフォーマンスを最適化しました。",
+        "responsiveUI": "レスポンシブFlutter UIを構築し、チームプロジェクトに協力しました。",
+        "bachelorsDegreeCS": "コンピュータサイエンスの学士号、ソフトウェア開発とアルゴリズムに焦点を当てました。",
+        "higherSecondaryEducation": "プログラミングと問題解決に重点を置いた高等教育。"
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "ジュニアFlutter開発者＆トレーナー",
+        "flutterDeveloper": "Flutter開発者",
+        "flutterDeveloperIntern": "Flutter開発者インターン"
+      },
+      "company": {
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd、カリカット",
+        "repadtech": "Repadtech Pvt Ltd、マラプラム",
+        "vitezSoftware": "Vitez Software Pvt Ltd、カリカット"
+      },
+      "desc": {
+        "flutterExpertise": "FlutterフレームワークとDartプログラミング言語の専門知識を深めました。",
+        "contributeSoftwareApplications": "ソフトウェアアプリケーションやコンポーネントの開発に貢献しました。"
+      }
+    },
+    "dates": {
+      "mar": "3月",
+      "apr": "4月",
+      "sep": "9月",
+      "dec": "12月",
+      "may": "5月",
+      "feb": "2月",
+      "present": "現在"
+    }
+  },
+  "skills": {
+    "mainHead": {
+      "head": "スキル",
+      "subHead": "私の専門分野"
+    },
+    "lists": {
+      "flutter": "フラッターアプリ (Android, iOS, Web)",
+      "structure": "コード構造とクリーンアーキテクチャ",
+      "github": "GitHub",
+      "androidStudio": "Android Studio",
+      "bloc": "Bloc",
+      "getX": "GetX",
+      "cubit": "Cubit",
+      "firebase": "Firebase",
+      "firestore": "Firestore",
+      "cloudMessaging": "クラウドメッセージング",
+      "apiIntegration": "API統合",
+      "debugging": "デバッグ",
+      "appMaintenance": "アプリメンテナンス"
+    }
+  },
+  "portfolio": {
+    "mainHead": {
+      "head": "ポートフォリオ",
+      "subHead": "私の作品"
+    }
+  },
+  "contact": {
+    "mainHead": {
+      "head": "お問い合わせ",
+      "subHead": "連絡する"
+    },
+    "dontbeshy": "遠慮なく！",
+    "desc": "お気軽にご連絡ください。新しいプロジェクトやクリエイティブなアイデア、またはあなたのビジョンの一部になる機会について、いつでも喜んで話し合います。",
+    "sendMessage": "メッセージを送信"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+import React, { useContext } from "react";
+import { ColorContext } from "../context/ColorContextShare";
+import { useTranslation } from "react-i18next";
+import cvPDF from "../assets/nasif-cv.pdf";
+
+export default function About() {
+  const { textColor } = useContext(ColorContext);
+  const { t } = useTranslation();
+
+  const statistics = [
+    {
+      count: "1+",
+      desc: t("about.statistics.experience"),
+    },
+    {
+      count: "5+",
+      desc: t("about.statistics.clients"),
+    },
+    {
+      count: "5+",
+      desc: t("about.statistics.projects"),
+    },
+    {
+      count: "5+",
+      desc: t("about.statistics.awards"),
+    },
+  ];
+
+  const education = [
+    {
+      startYear: `${t("resume.dates.mar")} 2024`,
+      endYear: `${t("resume.dates.apr")} 2024`,
+      dept: t("resume.education.dept.flutterDeveloperIntern"),
+      university: t("resume.education.university.doctosmartEnterprises"),
+      desc: t("resume.education.desc.flutterAppsApiOptimization"),
+    },
+    {
+      startYear: `${t("resume.dates.sep")} 2023`,
+      endYear: `${t("resume.dates.dec")} 2023`,
+      dept: t("resume.education.dept.flutterDeveloperIntern"),
+      university: t("resume.education.university.codmeHub"),
+      desc: t("resume.education.desc.responsiveUI"),
+    },
+    {
+      startYear: "2017",
+      endYear: "2020",
+      dept: t("resume.education.dept.computerScience"),
+      university: t("resume.education.university.universityOfCalicut"),
+      desc: t("resume.education.desc.bachelorsDegreeCS"),
+    },
+    {
+      startYear: "2015",
+      endYear: "2017",
+      dept: t("resume.education.dept.computerSciencePlus2"),
+      university: t("resume.education.university.keralaState"),
+      desc: t("resume.education.desc.higherSecondaryEducation"),
+    },
+  ];
+
+  const experience = [
+    {
+      startYear: `${t("resume.dates.mar")} 2024`,
+      endYear: `${t("resume.dates.present")}`,
+      dept: t("resume.experience.dept.jrFlutterDeveloperTrainer"),
+      company: t("resume.experience.company.doctosmartEnterprises"),
+      desc: t("resume.experience.desc.flutterExpertise"),
+    },
+    {
+      startYear: `${t("resume.dates.may")} 2022`,
+      endYear: `${t("resume.dates.may")} 2023`,
+      dept: t("resume.experience.dept.flutterDeveloper"),
+      company: t("resume.experience.company.repadtech"),
+      desc: t("resume.experience.desc.contributeSoftwareApplications"),
+    },
+    {
+      startYear: `${t("resume.dates.sep")} 2023`,
+      endYear: `${t("resume.dates.feb")} 2024`,
+      dept: t("resume.experience.dept.flutterDeveloperIntern"),
+      company: t("resume.experience.company.vitezSoftware"),
+      desc: t("resume.experience.desc.contributeSoftwareApplications"),
+    },
+  ];
+
+  // const education = [
+  //   {
+  //     startYear: "Mar 2024",
+  //     endYear: "Apr 2024",
+  //     dept: "Flutter Developer Intern",
+  //     university: "Doctosmart Enterprises, CyberPark Calicut",
+  //     desc: "Developed Flutter apps, integrated APIs, and optimized performance.",
+  //   },
+  //   {
+  //     startYear: "Sep 2023",
+  //     endYear: "Dec 2023",
+  //     dept: "Flutter Developer Intern",
+  //     university: "CodmeHub International Pvt Ltd, Calicut",
+  //     desc: "Built responsive Flutter UI and collaborated on team projects.",
+  //   },
+  //   {
+  //     startYear: 2017,
+  //     endYear: 2020,
+  //     dept: "Computer Science",
+  //     university: "University of Calicut",
+  //     desc: "Bachelor's degree in Computer Science, focused on software development and algorithms.",
+  //   },
+  //   {
+  //     startYear: 2015,
+  //     endYear: 2017,
+  //     dept: "Computer Science +2",
+  //     university: "Kerala State",
+  //     desc: "Higher secondary education with a focus on programming and problem-solving.",
+  //   },
+  // ];
+
+  // const experience = [
+  //   {
+  //     startYear: "Mar 2024",
+  //     endYear: "Present",
+  //     dept: "Jr Flutter Developer & Trainer",
+  //     company: "Doctosmart Enterprises Pvt Ltd, Calicut",
+  //     desc: "Sharpened my expertise in the Flutter framework and Dart programming language",
+  //   },
+  //   {
+  //     startYear: "May 2022",
+  //     endYear: "May 2023",
+  //     dept: "Flutter Developer",
+  //     company: "Repadtech Pvt Ltd, Malappuram",
+  //     desc: "Contribute to the development of software applications or components",
+  //   },
+  //   {
+  //     startYear: "Sep 2023",
+  //     endYear: "Feb 2024",
+  //     dept: "Flutter Developer - Intern",
+  //     company: "Vitez Software Pvt Ltd, Calicut",
+  //     desc: "Contribute to the development of software applications or components",
+  //   },
+  // ];
+
+  return (
+    <div className="text-white bg-black  p-10 md:px-20 ">
+      {/* Header Section */}
+      <div className="relative flex flex-col items-center justify-center h-48">
+        {/* Large Background Text */}
+        <h1
+          className="absolute text-7xl md:text-9xl font-bold opacity-20 uppercase"
+          style={{ color: textColor }}
+        >
+          {t("about.mainHead.head")}
+        </h1>
+
+        {/* Foreground Title with Underline */}
+        <h2 className="relative text-2xl md:text-3xl font-semibold z-10 text-white">
+          {t("about.mainHead.subHead")}
+          <span
+            className="block w-12 h-1 md:mt-2 mt-1 mx-auto"
+            style={{ backgroundColor: textColor }}
+          ></span>
+        </h2>
+      </div>
+
+      {/* Main About Section */}
+      <div className="md:flex mt-10 gap-10">
+        {/* Left Column: Introduction */}
+        <div className="md:w-2/3">
+          <h3 className="text-3xl font-semibold text-white">
+            {t("about.aboutDesc.iam")}{" "}
+            <span style={{ color: textColor }}>
+              {t("about.aboutDesc.name")}
+            </span>
+            ,{t("about.aboutDesc.category")}
+          </h3>
+          <p className="mt-4 text-gray-400">
+            {t("about.aboutDesc.description")}
+          </p>
+        </div>
+
+        {/* Right Column: Contact Information */}
+        <div className="md:w-1/3 mt-10 md:mt-0 rounded-lg shadow-md">
+          <ul className="space-y-3 text-gray-400">
+            <li>
+              <span className="font-semibold text-white">
+                {t("about.details.nameHead")}:
+              </span>{" "}
+              {t("about.details.nameCont")}
+            </li>
+            <li>
+              <span className="font-semibold text-white">
+                {t("about.details.emailHead")}:
+              </span>{" "}
+              <a
+                href="mailto:connect.tonasif@gmail.com"
+                style={{ color: textColor }}
+              >
+                {t("about.details.emailCont")}
+              </a>
+            </li>
+            <li>
+              <span className="font-semibold text-white">
+                {t("about.details.ageHead")}:
+              </span>{" "}
+              {t("about.details.ageCont")}
+            </li>
+            <li>
+              <span className="font-semibold text-white">
+                {t("about.details.fromHead")}:
+              </span>{" "}
+              {t("about.details.fromCont")}
+            </li>
+          </ul>
+          <div className="mt-6">
+            <a
+              href={cvPDF}
+              target="_blank"
+              download="Nasif_CV.pdf"
+              className=" w-fit px-6 py-2 rounded-md text-white font-semibold"
+              style={{ backgroundColor: textColor }}
+            >
+              {t("about.details.download")}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="grid md:grid-cols-2 gap-10 mt-20">
+        <div>
+          <h1 className="mb-3 text-2xl font-semibold">Education</h1>
+          {education?.map((item, ind) => (
+            <div
+              className="bg-[#111827] md:mb-10 mb-5 w-full md:p-8 p-5 md:min-h-[200px]"
+              key={ind}
+            >
+              <div className="flex justify-between gap-x-2 md:mb-0 mb-2">
+                <h1 className=" text-lg font-semibold  md:hidden ">
+                  {item.dept}
+                </h1>
+                <div
+                  className="px-2 rounded-sm w-fit text-xs py-1 font-semibold flex items-center"
+                  style={{ backgroundColor: textColor }}
+                >
+                  <span>
+                    {item.startYear}-{item.endYear}
+                  </span>
+                </div>
+              </div>
+              <h1 className="text-3xl font-semibold my-3 md:block hidden">
+                {item.dept}
+              </h1>
+              <h3 className="md:text-lg text-base" style={{ color: textColor }}>
+                {item.university}
+              </h3>
+              <h5 className="md:text-sm text-xs text-gray-400">{item.desc}</h5>
+            </div>
+          ))}
+        </div>
+        <div>
+          <h1 className="mb-3 text-2xl font-semibold">Experience</h1>
+          {experience?.map((item, ind) => (
+            <div
+              className="bg-[#111827] md:mb-10 mb-5 w-full md:p-8 p-5 md:min-h-[200px]"
+              key={ind}
+            >
+              <div className="flex justify-between gap-x-2 md:mb-0 mb-2">
+                <h1 className=" text-lg font-semibold  md:hidden ">
+                  {item.dept}
+                </h1>
+                <div
+                  className="px-2 rounded-sm w-fit text-xs py-1 font-semibold flex items-center"
+                  style={{ backgroundColor: textColor }}
+                >
+                  <span>
+                    {item.startYear}-{item.endYear}
+                  </span>
+                </div>
+              </div>
+              <h1 className="text-3xl font-semibold my-3 md:block hidden">
+                {item.dept}
+              </h1>
+              <h3 className="md:text-lg text-base" style={{ color: textColor }}>
+                {item.company}
+              </h3>
+              <h5 className="md:text-sm text-xs text-gray-400">{item.desc}</h5>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* Statistics Section */}
+      {/* <div className="flex flex-wrap justify-between items-center mt-10 text-center text-white border-t border-gray-700 pt-10">
+        {statistics?.map((item, ind) => (
+          <div className="w-1/2 md:w-1/4 mb-6 md:mb-0" key={ind}>
+            <h4 className="text-4xl font-bold">{item.count}</h4>
+            <p className="text-gray-700">{item.desc}</p>
+          </div>
+        ))}
+      </div> */}
+    </div>
+  );
+}

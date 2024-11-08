@@ -63,12 +63,71 @@
     "mainHead": {
       "head": "ملخص",
       "subHead": "السيرة الذاتية"
+    },
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "متدرب مطور فلاتر",
+        "computerScience": "علوم الحاسوب",
+        "computerSciencePlus2": "علوم الحاسوب +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "دوكتو سمارت إنتربرايز، سايبر بارك كاليكوت",
+        "codmeHub": "كودمي هاب إنترناشونال، كاليكوت",
+        "universityOfCalicut": "جامعة كاليكوت",
+        "keralaState": "ولاية كيرالا"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "قمت بتطوير تطبيقات فلاتر، دمج واجهات برمجة التطبيقات، وتحسين الأداء.",
+        "responsiveUI": "قمت ببناء واجهات مستخدم فلاتر استجابة وتعاونت في المشاريع الفريقية.",
+        "bachelorsDegreeCS": "درجة البكالوريوس في علوم الحاسوب، مع التركيز على تطوير البرمجيات والخوارزميات.",
+        "higherSecondaryEducation": "التعليم الثانوي العالي مع التركيز على البرمجة وحل المشكلات."
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "مطور فلاتر مبتدئ ومدرب",
+        "flutterDeveloper": "مطور فلاتر",
+        "flutterDeveloperIntern": "متدرب مطور فلاتر"
+      },
+      "company": {
+        "doctosmartEnterprises": "دوكتو سمارت إنتربرايز، كاليكوت",
+        "repadtech": "ريبادتيك، مالابورام",
+        "vitezSoftware": "فيتيز سوفتوير، كاليكوت"
+      },
+      "desc": {
+        "flutterExpertise": "قمت بصقل خبرتي في إطار فلاتر ولغة البرمجة دارت.",
+        "contributeSoftwareApplications": "ساهمت في تطوير تطبيقات أو مكونات البرمجيات."
+      }
+    },
+    "dates": {
+      "mar": "مارس",
+      "apr": "أبريل",
+      "sep": "سبتمبر",
+      "dec": "ديسمبر",
+      "may": "مايو",
+      "feb": "فبراير",
+      "present": "الحالي"
     }
   },
   "skills": {
     "mainHead": {
       "head": "مهارات",
       "subHead": "خبراتي"
+    },
+    "lists": {
+      "flutter": "تطبيق فلاتر (Android ، iOS ، Web)",
+      "structure": "هيكل الكود وعمارة نظيفة",
+      "github": "جيت هاب",
+      "androidStudio": "أندرويد استوديو",
+      "bloc": "بلوكت",
+      "getX": "GetX",
+      "cubit": "كيوبيت",
+      "firebase": "فايربيس",
+      "firestore": "فايرستور",
+      "cloudMessaging": "رسائل السحابة",
+      "apiIntegration": "دمج API",
+      "debugging": "تصحيح الأخطاء",
+      "appMaintenance": "صيانة التطبيق"
     }
   },
   "portfolio": {

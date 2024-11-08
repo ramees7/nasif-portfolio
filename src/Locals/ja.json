@@ -64,12 +64,71 @@
     "mainHead": {
       "head": "概要",
       "subHead": "履歴書"
+    },
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "Flutter開発者インターン",
+        "computerScience": "コンピュータサイエンス",
+        "computerSciencePlus2": "コンピュータサイエンス +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "Doctosmart Enterprises、サイバーパークカリカット",
+        "codmeHub": "CodmeHub International Pvt Ltd、カリカット",
+        "universityOfCalicut": "カリカット大学",
+        "keralaState": "ケララ州"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "Flutterアプリを開発し、APIを統合し、パフォーマンスを最適化しました。",
+        "responsiveUI": "レスポンシブFlutter UIを構築し、チームプロジェクトに協力しました。",
+        "bachelorsDegreeCS": "コンピュータサイエンスの学士号、ソフトウェア開発とアルゴリズムに焦点を当てました。",
+        "higherSecondaryEducation": "プログラミングと問題解決に重点を置いた高等教育。"
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "ジュニアFlutter開発者＆トレーナー",
+        "flutterDeveloper": "Flutter開発者",
+        "flutterDeveloperIntern": "Flutter開発者インターン"
+      },
+      "company": {
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd、カリカット",
+        "repadtech": "Repadtech Pvt Ltd、マラプラム",
+        "vitezSoftware": "Vitez Software Pvt Ltd、カリカット"
+      },
+      "desc": {
+        "flutterExpertise": "FlutterフレームワークとDartプログラミング言語の専門知識を深めました。",
+        "contributeSoftwareApplications": "ソフトウェアアプリケーションやコンポーネントの開発に貢献しました。"
+      }
+    },
+    "dates": {
+      "mar": "3月",
+      "apr": "4月",
+      "sep": "9月",
+      "dec": "12月",
+      "may": "5月",
+      "feb": "2月",
+      "present": "現在"
     }
   },
   "skills": {
     "mainHead": {
       "head": "スキル",
       "subHead": "私の専門分野"
+    },
+    "lists": {
+      "flutter": "フラッターアプリ (Android, iOS, Web)",
+      "structure": "コード構造とクリーンアーキテクチャ",
+      "github": "GitHub",
+      "androidStudio": "Android Studio",
+      "bloc": "Bloc",
+      "getX": "GetX",
+      "cubit": "Cubit",
+      "firebase": "Firebase",
+      "firestore": "Firestore",
+      "cloudMessaging": "クラウドメッセージング",
+      "apiIntegration": "API統合",
+      "debugging": "デバッグ",
+      "appMaintenance": "アプリメンテナンス"
     }
   },
   "portfolio": {

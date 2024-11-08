@@ -6,3 +6,28 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #9ca3af; /* Matches text color */
   transition: background-color 5000s ease-in-out 0s;
 }
+
+@keyframes slide-left {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes slide-right {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes slide-top {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+  }
+  
+  @keyframes slide-bottom {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  
+  .animate-slide-left { animation: slide-left 0.8s forwards; }
+  .animate-slide-right { animation: slide-right 0.8s forwards; }
+  .animate-slide-top { animation: slide-top 0.8s forwards; }
+  .animate-slide-bottom { animation: slide-bottom 0.8s forwards; }
