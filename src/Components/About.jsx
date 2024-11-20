@@ -1,84 +1,65 @@
-
 import React, { useContext } from "react";
 import { ColorContext } from "../context/ColorContextShare";
 import { useTranslation } from "react-i18next";
 import cvPDF from "../assets/nasif-cv.pdf";
+import { SettingsContext } from "../context/SettingsContext";
 
 export default function About() {
-  const { textColor } = useContext(ColorContext);
+  const { textColor } = useContext(SettingsContext);
   const { t } = useTranslation();
-
-  const statistics = [
-    {
-      count: "1+",
-      desc: t("about.statistics.experience"),
-    },
-    {
-      count: "5+",
-      desc: t("about.statistics.clients"),
-    },
-    {
-      count: "5+",
-      desc: t("about.statistics.projects"),
-    },
-    {
-      count: "5+",
-      desc: t("about.statistics.awards"),
-    },
-  ];
 
   const education = [
     {
-      startYear: `${t("resume.dates.mar")} 2024`,
-      endYear: `${t("resume.dates.apr")} 2024`,
-      dept: t("resume.education.dept.flutterDeveloperIntern"),
-      university: t("resume.education.university.doctosmartEnterprises"),
-      desc: t("resume.education.desc.flutterAppsApiOptimization"),
+      startYear: `${t("about.dates.mar")} 2024`,
+      endYear: `${t("about.dates.apr")} 2024`,
+      dept: t("about.education.dept.flutterDeveloperIntern"),
+      university: t("about.education.university.doctosmartEnterprises"),
+      desc: t("about.education.desc.flutterAppsApiOptimization"),
     },
     {
-      startYear: `${t("resume.dates.sep")} 2023`,
-      endYear: `${t("resume.dates.dec")} 2023`,
-      dept: t("resume.education.dept.flutterDeveloperIntern"),
-      university: t("resume.education.university.codmeHub"),
-      desc: t("resume.education.desc.responsiveUI"),
+      startYear: `${t("about.dates.sep")} 2023`,
+      endYear: `${t("about.dates.dec")} 2023`,
+      dept: t("about.education.dept.flutterDeveloperIntern"),
+      university: t("about.education.university.codmeHub"),
+      desc: t("about.education.desc.responsiveUI"),
     },
     {
       startYear: "2017",
       endYear: "2020",
-      dept: t("resume.education.dept.computerScience"),
-      university: t("resume.education.university.universityOfCalicut"),
-      desc: t("resume.education.desc.bachelorsDegreeCS"),
+      dept: t("about.education.dept.computerScience"),
+      university: t("about.education.university.universityOfCalicut"),
+      desc: t("about.education.desc.bachelorsDegreeCS"),
     },
     {
       startYear: "2015",
       endYear: "2017",
-      dept: t("resume.education.dept.computerSciencePlus2"),
-      university: t("resume.education.university.keralaState"),
-      desc: t("resume.education.desc.higherSecondaryEducation"),
+      dept: t("about.education.dept.computerSciencePlus2"),
+      university: t("about.education.university.keralaState"),
+      desc: t("about.education.desc.higherSecondaryEducation"),
     },
   ];
 
   const experience = [
     {
-      startYear: `${t("resume.dates.mar")} 2024`,
-      endYear: `${t("resume.dates.present")}`,
-      dept: t("resume.experience.dept.jrFlutterDeveloperTrainer"),
-      company: t("resume.experience.company.doctosmartEnterprises"),
-      desc: t("resume.experience.desc.flutterExpertise"),
+      startYear: `${t("about.dates.mar")} 2024`,
+      endYear: `${t("about.dates.present")}`,
+      dept: t("about.experience.dept.jrFlutterDeveloperTrainer"),
+      company: t("about.experience.company.doctosmartEnterprises"),
+      desc: t("about.experience.desc.flutterExpertise"),
     },
     {
-      startYear: `${t("resume.dates.may")} 2022`,
-      endYear: `${t("resume.dates.may")} 2023`,
-      dept: t("resume.experience.dept.flutterDeveloper"),
-      company: t("resume.experience.company.repadtech"),
-      desc: t("resume.experience.desc.contributeSoftwareApplications"),
+      startYear: `${t("about.dates.may")} 2022`,
+      endYear: `${t("about.dates.may")} 2023`,
+      dept: t("about.experience.dept.flutterDeveloper"),
+      company: t("about.experience.company.repadtech"),
+      desc: t("about.experience.desc.contributeSoftwareApplications"),
     },
     {
-      startYear: `${t("resume.dates.sep")} 2023`,
-      endYear: `${t("resume.dates.feb")} 2024`,
-      dept: t("resume.experience.dept.flutterDeveloperIntern"),
-      company: t("resume.experience.company.vitezSoftware"),
-      desc: t("resume.experience.desc.contributeSoftwareApplications"),
+      startYear: `${t("about.dates.sep")} 2023`,
+      endYear: `${t("about.dates.feb")} 2024`,
+      dept: t("about.experience.dept.flutterDeveloperIntern"),
+      company: t("about.experience.company.vitezSoftware"),
+      desc: t("about.experience.desc.contributeSoftwareApplications"),
     },
   ];
 
@@ -223,7 +204,9 @@ export default function About() {
       </div>
       <div className="grid md:grid-cols-2 gap-10 mt-20">
         <div>
-          <h1 className="mb-3 text-2xl font-semibold">Education</h1>
+          <h1 className="mb-3 text-2xl font-semibold">
+            {t("about.education.educationHead")}
+          </h1>
           {education?.map((item, ind) => (
             <div
               className="bg-[#111827] md:mb-10 mb-5 w-full md:p-8 p-5 md:min-h-[200px]"
@@ -253,7 +236,9 @@ export default function About() {
           ))}
         </div>
         <div>
-          <h1 className="mb-3 text-2xl font-semibold">Experience</h1>
+          <h1 className="mb-3 text-2xl font-semibold">
+            {t("about.experience.experienceHead")}
+          </h1>
           {experience?.map((item, ind) => (
             <div
               className="bg-[#111827] md:mb-10 mb-5 w-full md:p-8 p-5 md:min-h-[200px]"

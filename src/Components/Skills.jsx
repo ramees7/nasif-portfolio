@@ -1,9 +1,10 @@
 import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { ColorContext } from "../context/ColorContextShare";
+import { SettingsContext } from "../context/SettingsContext";
 
 export default function Skills() {
-  const { textColor } = useContext(ColorContext);
+  const { textColor } = useContext(SettingsContext);
 
   const { t } = useTranslation();
 

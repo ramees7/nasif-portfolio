@@ -2,9 +2,10 @@ import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { ColorContext } from "../context/ColorContextShare";
 import { FaChartBar, FaCode, FaMobileAlt, FaPalette } from "react-icons/fa";
+import { SettingsContext } from "../context/SettingsContext";
 
 export default function Services() {
-  const { textColor } = useContext(ColorContext);
+  const { textColor } = useContext(SettingsContext);
   const { t } = useTranslation();
 
   const services = [

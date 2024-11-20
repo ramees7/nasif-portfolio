@@ -38,35 +38,8 @@
       "fromCont": "Kerala ,india",
       "download": "Download CV"
     },
-    "statistics": {
-      "experience": "Year Experience",
-      "clients": "Happy Clients",
-      "projects": "Projects Done",
-      "awards": "Get Awards"
-    }
-  },
-  "service": {
-    "mainHead": {
-      "head": "Services",
-      "subHead": "What I Do "
-    },
-    "serviceTitleApp": "App Design and Development",
-    "descApp": "We design and develop stunning mobile apps for iOS and Android.",
-    "serviceTitleDM": "Digital Marketing",
-    "descDM": "Boost your online visibility with our effective digital marketing strategies.",
-    "serviceTitleWeb": "Web Development",
-    "descWeb": "We build responsive and user-friendly websites tailored to your needs.",
-    "serviceTitleGraphic": "Graphic Designing",
-    "descGraphic": "Elevate your brand with our creative graphic design solutions."
-  },
-
-  "resume": {
-    "mainHead": {
-      "head": "Summary",
-      "subHead": "Resume"
-    },
-    "educationHead":"Education",
     "education": {
+      "educationHead": "Education",
       "dept": {
         "flutterDeveloperIntern": "Flutter Developer Intern",
         "computerScience": "Computer Science",
@@ -86,6 +59,7 @@
       }
     },
     "experience": {
+      "experienceHead": "Experience",
       "dept": {
         "jrFlutterDeveloperTrainer": "Jr Flutter Developer & Trainer",
         "flutterDeveloper": "Flutter Developer",
@@ -111,6 +85,21 @@
       "present": "Present"
     }
   },
+  "service": {
+    "mainHead": {
+      "head": "Services",
+      "subHead": "What I Do "
+    },
+    "serviceTitleApp": "App Design and Development",
+    "descApp": "We design and develop stunning mobile apps for iOS and Android.",
+    "serviceTitleDM": "Digital Marketing",
+    "descDM": "Boost your online visibility with our effective digital marketing strategies.",
+    "serviceTitleWeb": "Web Development",
+    "descWeb": "We build responsive and user-friendly websites tailored to your needs.",
+    "serviceTitleGraphic": "Graphic Designing",
+    "descGraphic": "Elevate your brand with our creative graphic design solutions."
+  },
+
   "skills": {
     "mainHead": {
       "head": "Skills",
@@ -136,7 +125,8 @@
     "mainHead": {
       "head": "Portfolio",
       "subHead": "My Work"
-    }
+    },
+    "backtoHome": "Back to Home"
   },
   "contact": {
     "mainHead": {

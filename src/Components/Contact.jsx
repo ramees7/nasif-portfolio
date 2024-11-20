@@ -132,9 +132,10 @@ import { ColorContext } from "../context/ColorContextShare";
 import { useContext, useState } from "react";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
+import { SettingsContext } from "../context/SettingsContext";
 
 export default function Contact() {
-  const { textColor } = useContext(ColorContext);
+  const { textColor } = useContext(SettingsContext);
   const { t } = useTranslation();
 
   // Form data state

@@ -79,16 +79,18 @@
 //   );
 // }
 
-import React, { useState, useContext } from "react";
-import { ColorContext } from "../context/ColorContextShare";
+import React, { useState, useContext, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FaChevronLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { SettingsContext } from "../context/SettingsContext";
 
 export default function Portfolio() {
-  const { textColor } = useContext(ColorContext);
+  const { textColor } = useContext(SettingsContext);
   const { t } = useTranslation();
   const [hoverDirection, setHoverDirection] = useState("");
+
+
 
   // Sample portfolio items (replace with actual data)
   const portfolioItems = [
@@ -148,7 +150,7 @@ export default function Portfolio() {
         className="flex items-center gap-1 mt-10 mb-3 cursor-pointer"
       >
         <FaChevronLeft />
-        <h1>Back to Home</h1>
+        <h1>{t("portfolio.backtoHome")}</h1>
       </Link>
 
       {/* Portfolio Items */}
@@ -180,9 +182,7 @@ export default function Portfolio() {
               }`}
               style={{ backgroundColor: textColor }}
             >
-              <h3 className="text-xl font-bold z-50" style={{ color: textColor }}>
-                {item.title}
-              </h3>
+              <h3 className="text-xl font-bold text-white">{item.title}</h3>
             </div>
           </div>
         ))}

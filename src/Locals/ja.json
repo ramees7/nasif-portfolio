@@ -1,102 +1,77 @@
 {
   "landing": {
     "navbar": {
-      "about": "私について",
+      "about": "私たちについて",
       "service": "サービス",
       "resume": "履歴書",
       "skills": "スキル",
       "portfolio": "ポートフォリオ",
       "contact": "お問い合わせ"
     },
-    "name": "ナスィフ",
+    "name": "ムハンマド・ナシフ・ア",
     "greeting": "私は",
     "roles": {
       "freelancer": "フリーランス",
       "developer": "開発者"
     },
-    "colorSwitcher": "カラー切替"
+    "colorSwitcher": "カラースイッチャー"
   },
   "about": {
     "mainHead": {
-      "head": "私のこと",
+      "head": "私について",
       "subHead": "もっと知る"
     },
     "aboutDesc": {
       "iam": "私は",
-      "name": "ナスィフ",
-      "category": "Flutter 開発者",
-      "description": "Doctosmart Enterprises Pvt. Ltd. の熱心な Flutter 開発者として、私は革新的でユーザー中心のモバイルアプリケーションの作成を専門としています。細部へのこだわりとテクノロジーへの情熱を持って、私は期待を超える高品質なソリューションを提供することに取り組んでいます。Flutter の力を活用して、視覚的に魅力的で機能的に堅牢なクロスプラットフォームアプリを作成します。"
+      "name": "ムハンマド・ナシフ・ア",
+      "category": "Flutter開発者",
+      "description": "Doctosmart Enterprises Pvt. Ltd.の献身的なFlutter開発者として、革新的でユーザー中心のモバイルアプリケーションの作成を専門としています。細部へのこだわりとテクノロジーへの情熱を持ち、期待を超える高品質なソリューションを提供することに取り組んでいます。Flutterの力を活用して、視覚的に魅力的で機能的に堅牢なクロスプラットフォームアプリを作成します。"
     },
     "details": {
       "nameHead": "名前",
-      "nameCont": "ムハンマド・ナシフ・A",
+      "nameCont": "ムハンマド・ナシフ・ア",
       "emailHead": "メールアドレス",
       "emailCont": "connect.tonasif@gmail.com",
       "ageHead": "年齢",
       "ageCont": "22",
-      "fromHead": "出身",
+      "fromHead": "出身地",
       "fromCont": "ケララ州、インド",
-      "download": "CV ダウンロード"
-    },
-    "statistics": {
-      "experience": "経験年数",
-      "clients": "満足したクライアント",
-      "projects": "完了したプロジェクト",
-      "awards": "受賞歴"
-    }
-  },
-  "service": {
-    "mainHead": {
-      "head": "サービス",
-      "subHead": "私がすること"
-    },
-    "serviceTitleApp": "アプリデザインと開発",
-    "descApp": "iOS と Android のための素晴らしいモバイルアプリを設計および開発します。",
-    "serviceTitleDM": "デジタルマーケティング",
-    "descDM": "効果的なデジタルマーケティング戦略でオンラインでの存在感を高めます。",
-    "serviceTitleWeb": "Web開発",
-    "descWeb": "お客様のニーズに合わせて、レスポンシブでユーザーフレンドリーなウェブサイトを構築します。",
-    "serviceTitleGraphic": "グラフィックデザイン",
-    "descGraphic": "クリエイティブなグラフィックデザインソリューションでブランドを高めます。"
-  },
-
-  "resume": {
-    "mainHead": {
-      "head": "概要",
-      "subHead": "履歴書"
+      "download": "履歴書をダウンロード"
     },
     "education": {
+      "educationHead": "教育",
       "dept": {
         "flutterDeveloperIntern": "Flutter開発者インターン",
         "computerScience": "コンピュータサイエンス",
-        "computerSciencePlus2": "コンピュータサイエンス +2"
+        "computerSciencePlus2": "コンピュータサイエンス+2"
       },
       "university": {
-        "doctosmartEnterprises": "Doctosmart Enterprises、サイバーパークカリカット",
-        "codmeHub": "CodmeHub International Pvt Ltd、カリカット",
+        "doctosmartEnterprises": "Doctosmart Enterprises, CyberPark Calicut",
+        "codmeHub": "CodmeHub International Pvt Ltd, Calicut",
         "universityOfCalicut": "カリカット大学",
         "keralaState": "ケララ州"
       },
       "desc": {
-        "flutterAppsApiOptimization": "Flutterアプリを開発し、APIを統合し、パフォーマンスを最適化しました。",
-        "responsiveUI": "レスポンシブFlutter UIを構築し、チームプロジェクトに協力しました。",
-        "bachelorsDegreeCS": "コンピュータサイエンスの学士号、ソフトウェア開発とアルゴリズムに焦点を当てました。",
-        "higherSecondaryEducation": "プログラミングと問題解決に重点を置いた高等教育。"
+        "flutterAppsApiOptimization": "Flutterアプリの開発、APIの統合、パフォーマンスの最適化を行いました。",
+        "responsiveUI": "レスポンシブなFlutter UIを構築し、チームプロジェクトで協力しました。",
+        "bachelorsDegreeCS": "コンピュータサイエンスの学士号を取得し、ソフトウェア開発とアルゴリズムに重点を置いています。",
+        "higherSecondaryEducation": "プログラミングと問題解決に重点を置いた高等中等教育。"
       }
     },
     "experience": {
+      "experienceHead": "経験",
       "dept": {
-        "jrFlutterDeveloperTrainer": "ジュニアFlutter開発者＆トレーナー",
+        "jrFlutterDeveloperTrainer": "ジュニアFlutter開発者兼トレーナー",
         "flutterDeveloper": "Flutter開発者",
         "flutterDeveloperIntern": "Flutter開発者インターン"
       },
       "company": {
-        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd、カリカット",
-        "repadtech": "Repadtech Pvt Ltd、マラプラム",
-        "vitezSoftware": "Vitez Software Pvt Ltd、カリカット"
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd, Calicut",
+        "repadtech": "Repadtech Pvt Ltd, Malappuram",
+        "vitezSoftware": "Vitez Software Pvt Ltd, Calicut"
       },
       "desc": {
-        "flutterExpertise": "FlutterフレームワークとDartプログラミング言語の専門知識を深めました。",
+        "flutterExpertise": "FlutterフレームワークとDartプログラミング言語の専門知識を磨きました。",
         "contributeSoftwareApplications": "ソフトウェアアプリケーションやコンポーネントの開発に貢献しました。"
       }
     },
@@ -110,13 +85,27 @@
       "present": "現在"
     }
   },
+  "service": {
+    "mainHead": {
+      "head": "サービス",
+      "subHead": "私が提供するもの"
+    },
+    "serviceTitleApp": "アプリデザインと開発",
+    "descApp": "iOSとAndroid向けの素晴らしいモバイルアプリをデザインおよび開発します。",
+    "serviceTitleDM": "デジタルマーケティング",
+    "descDM": "効果的なデジタルマーケティング戦略でオンラインでの可視性を高めます。",
+    "serviceTitleWeb": "Web開発",
+    "descWeb": "お客様のニーズに合わせて、レスポンシブでユーザーフレンドリーなウェブサイトを構築します。",
+    "serviceTitleGraphic": "グラフィックデザイン",
+    "descGraphic": "創造的なグラフィックデザインソリューションでブランドを向上させます。"
+  },
   "skills": {
     "mainHead": {
       "head": "スキル",
-      "subHead": "私の専門分野"
+      "subHead": "私の専門知識"
     },
     "lists": {
-      "flutter": "フラッターアプリ (Android, iOS, Web)",
+      "flutter": "Flutterアプリ（Android、iOS、Web）",
       "structure": "コード構造とクリーンアーキテクチャ",
       "github": "GitHub",
       "androidStudio": "Android Studio",
@@ -135,15 +124,16 @@
     "mainHead": {
       "head": "ポートフォリオ",
       "subHead": "私の作品"
-    }
+    },
+    "backtoHome": "ホームに戻る"
   },
   "contact": {
     "mainHead": {
       "head": "お問い合わせ",
-      "subHead": "連絡する"
+      "subHead": "連絡を取る"
     },
-    "dontbeshy": "遠慮なく！",
-    "desc": "お気軽にご連絡ください。新しいプロジェクトやクリエイティブなアイデア、またはあなたのビジョンの一部になる機会について、いつでも喜んで話し合います。",
+    "dontbeshy": "遠慮しないで！",
+    "desc": "お気軽にご連絡ください。新しいプロジェクト、クリエイティブなアイデア、またはあなたのビジョンの一部になる機会について、いつでも喜んで話し合います。",
     "sendMessage": "メッセージを送信"
   }
 }

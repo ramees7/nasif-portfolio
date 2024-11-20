@@ -1,102 +1,78 @@
 {
   "landing": {
     "navbar": {
-      "about": "حول",
-      "service": " خدمة",
+      "about": "حولنا",
+      "service": "الخدمات",
       "resume": "السيرة الذاتية",
-      "skills": "مهارات",
+      "skills": "المهارات",
       "portfolio": "المحفظة",
       "contact": "اتصل بنا"
     },
-    "name": "ناصيف",
+    "name": "محمد ناصف أ",
     "greeting": "أنا",
     "roles": {
       "freelancer": "مستقل",
-      "developer": "مطور"
+      "developer": "مطوّر"
     },
-    "colorSwitcher": "مُبدّل الألوان"
+    "colorSwitcher": "مبدل الألوان"
   },
   "about": {
     "mainHead": {
       "head": "عنّي",
-      "subHead": "تعرف عليّ أكثر"
+      "subHead": "اعرفني أكثر"
     },
     "aboutDesc": {
       "iam": "أنا",
-      "name": "ناصيف",
-      "category": "مطور Flutter",
-      "description": "كمطور Flutter متخصص في شركة Doctosmart Enterprises Pvt. Ltd.، أنا متخصص في تصميم تطبيقات جوال مبتكرة تركز على المستخدم. مع حرصي الشديد على التفاصيل وشغفي بالتقنية، أنا ملتزم بتقديم حلول عالية الجودة تتجاوز التوقعات. باستخدام قوة Flutter، أقوم بإنشاء تطبيقات متعددة المنصات مذهلة بصريًا وقوية وظيفيًا."
+      "name": "محمد ناصف أ",
+      "category": "مطوّر فلاتر",
+      "description": "بصفتي مطوّر فلاتر مكرّسًا في Doctosmart Enterprises Pvt. Ltd., أتخصص في صناعة تطبيقات جوال مبتكرة وتركز على المستخدم. مع حرص شديد على التفاصيل وشغف بالتكنولوجيا، أنا ملتزم بتقديم حلول عالية الجودة تتجاوز التوقعات. باستخدام قوة فلاتر، أقوم بإنشاء تطبيقات متعددة المنصات مذهلة بصريًا وقوية وظيفيا."
     },
     "details": {
       "nameHead": "الاسم",
-      "nameCont": "محمد نصيف أ",
+      "nameCont": "محمد ناصف أ",
       "emailHead": "البريد الإلكتروني",
       "emailCont": "connect.tonasif@gmail.com",
       "ageHead": "العمر",
       "ageCont": "22",
       "fromHead": "من",
       "fromCont": "كيرالا ، الهند",
-      "download": "تحميل السيرة الذاتية"
-    },
-    "statistics": {
-      "experience": "سنوات الخبرة",
-      "clients": "عملاء سعداء",
-      "projects": "المشاريع المنفذة",
-      "awards": "الحصول على جوائز"
-    }
-  },
-  "service": {
-    "mainHead": {
-      "head": "الخدمات",
-      "subHead": "ما أقوم به"
-    },
-    "serviceTitleApp": "تصميم وتطوير التطبيقات",
-    "descApp": "نحن نصمم ونطور تطبيقات الهاتف المحمول المذهلة لنظامي iOS و Android.",
-    "serviceTitleDM": "التسويق الرقمي",
-    "descDM": "عزز حضورك عبر الإنترنت من خلال استراتيجيات التسويق الرقمي الفعالة لدينا.",
-    "serviceTitleWeb": "تطوير الويب",
-    "descWeb": "نحن نبني مواقع ويب سريعة الاستجابة وصديقة للمستخدم مصممة خصيصًا لاحتياجاتك.",
-    "serviceTitleGraphic": "التصميم الجرافيكي",
-    "descGraphic": "ارتقِ بعلامتك التجارية من خلال حلول التصميم الجرافيكي الإبداعية لدينا."
-  },
-  "resume": {
-    "mainHead": {
-      "head": "ملخص",
-      "subHead": "السيرة الذاتية"
+      "download": "تنزيل السيرة الذاتية"
     },
     "education": {
+      "educationHead": "التعليم",
       "dept": {
-        "flutterDeveloperIntern": "متدرب مطور فلاتر",
+        "flutterDeveloperIntern": "متدرّب مطوّر فلاتر",
         "computerScience": "علوم الحاسوب",
-        "computerSciencePlus2": "علوم الحاسوب +2"
+        "computerSciencePlus2": "علوم الحاسوب (دبلوم)"
       },
       "university": {
-        "doctosmartEnterprises": "دوكتو سمارت إنتربرايز، سايبر بارك كاليكوت",
-        "codmeHub": "كودمي هاب إنترناشونال، كاليكوت",
+        "doctosmartEnterprises": "Doctosmart Enterprises, CyberPark Calicut",
+        "codmeHub": "CodmeHub International Pvt Ltd, Calicut",
         "universityOfCalicut": "جامعة كاليكوت",
         "keralaState": "ولاية كيرالا"
       },
       "desc": {
-        "flutterAppsApiOptimization": "قمت بتطوير تطبيقات فلاتر، دمج واجهات برمجة التطبيقات، وتحسين الأداء.",
-        "responsiveUI": "قمت ببناء واجهات مستخدم فلاتر استجابة وتعاونت في المشاريع الفريقية.",
-        "bachelorsDegreeCS": "درجة البكالوريوس في علوم الحاسوب، مع التركيز على تطوير البرمجيات والخوارزميات.",
+        "flutterAppsApiOptimization": "طوّرت تطبيقات فلاتر، ودمجت واجهات برمجة التطبيقات، وحسنت الأداء.",
+        "responsiveUI": "بَنَيت واجهة مستخدم فلاتر استجابة وتعاونت في مشاريع الفريق.",
+        "bachelorsDegreeCS": "بكالوريوس في علوم الحاسوب، مع التركيز على تطوير البرمجيات والخوارزميات.",
         "higherSecondaryEducation": "التعليم الثانوي العالي مع التركيز على البرمجة وحل المشكلات."
       }
     },
     "experience": {
+      "experienceHead": "الخبرة",
       "dept": {
-        "jrFlutterDeveloperTrainer": "مطور فلاتر مبتدئ ومدرب",
-        "flutterDeveloper": "مطور فلاتر",
-        "flutterDeveloperIntern": "متدرب مطور فلاتر"
+        "jrFlutterDeveloperTrainer": "مدرب ومطوّر فلاتر مبتدئ",
+        "flutterDeveloper": "مطوّر فلاتر",
+        "flutterDeveloperIntern": "متدرّب مطوّر فلاتر"
       },
       "company": {
-        "doctosmartEnterprises": "دوكتو سمارت إنتربرايز، كاليكوت",
-        "repadtech": "ريبادتيك، مالابورام",
-        "vitezSoftware": "فيتيز سوفتوير، كاليكوت"
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd, Calicut",
+        "repadtech": "Repadtech Pvt Ltd, Malappuram",
+        "vitezSoftware": "Vitez Software Pvt Ltd, Calicut"
       },
       "desc": {
-        "flutterExpertise": "قمت بصقل خبرتي في إطار فلاتر ولغة البرمجة دارت.",
-        "contributeSoftwareApplications": "ساهمت في تطوير تطبيقات أو مكونات البرمجيات."
+        "flutterExpertise": "شحذتُ خبرتي في إطار فلاتر ولغة البرمجة دارت.",
+        "contributeSoftwareApplications": "ساهمت في تطوير تطبيقات أو مكونات برامجيات."
       }
     },
     "dates": {
@@ -106,43 +82,58 @@
       "dec": "ديسمبر",
       "may": "مايو",
       "feb": "فبراير",
-      "present": "الحالي"
+      "present": "الحاضر"
     }
+  },
+  "service": {
+    "mainHead": {
+      "head": "الخدمات",
+      "subHead": "ماذا أفعل"
+    },
+    "serviceTitleApp": "تصميم وتطوير التطبيقات",
+    "descApp": "نقوم بتصميم وتطوير تطبيقات جوال مذهلة لنظامي iOS وAndroid.",
+    "serviceTitleDM": "التسويق الرقمي",
+    "descDM": "عزز حضورك عبر الإنترنت من خلال استراتيجياتنا الفعالة للتسويق الرقمي.",
+    "serviceTitleWeb": "تطوير الويب",
+    "descWeb": "نبني مواقع ويب سريعة الاستجابة وصديقة للمستخدم مصممة خصيصًا لاحتياجاتك.",
+    "serviceTitleGraphic": "التصميم الجرافيكي",
+    "descGraphic": "ارتقِ بعلامتك التجارية من خلال حلولنا الإبداعية للتصميم الجرافيكي."
   },
   "skills": {
     "mainHead": {
-      "head": "مهارات",
+      "head": "المهارات",
       "subHead": "خبراتي"
     },
     "lists": {
-      "flutter": "تطبيق فلاتر (Android ، iOS ، Web)",
-      "structure": "هيكل الكود وعمارة نظيفة",
-      "github": "جيت هاب",
-      "androidStudio": "أندرويد استوديو",
-      "bloc": "بلوكت",
+      "flutter": "تطبيقات فلاتر (Android, iOS, Web)",
+      "structure": "هيكل الكود والهندسة المعمارية النظيفة",
+      "github": "GitHub",
+      "androidStudio": "Android Studio",
+      "bloc": "Bloc",
       "getX": "GetX",
-      "cubit": "كيوبيت",
-      "firebase": "فايربيس",
-      "firestore": "فايرستور",
-      "cloudMessaging": "رسائل السحابة",
-      "apiIntegration": "دمج API",
+      "cubit": "Cubit",
+      "firebase": "Firebase",
+      "firestore": "Firestore",
+      "cloudMessaging": "الرسائل السحابية",
+      "apiIntegration": "دمج واجهات برمجة التطبيقات",
       "debugging": "تصحيح الأخطاء",
-      "appMaintenance": "صيانة التطبيق"
+      "appMaintenance": "صيانة التطبيقات"
     }
   },
   "portfolio": {
     "mainHead": {
       "head": "المحفظة",
       "subHead": "أعمالي"
-    }
+    },
+    "backtoHome": "العودة إلى الصفحة الرئيسية"
   },
   "contact": {
     "mainHead": {
-      "head": "تواصل معنا",
+      "head": "اتصل بنا",
       "subHead": "تواصل معنا"
     },
     "dontbeshy": "لا تتردد!",
-    "desc": "لا تتردد في التواصل معي. أنا دائمًا منفتح على مناقشة مشاريع جديدة أو أفكار إبداعية أو فرص للمشاركة في رؤيتك.",
+    "desc": "لا تتردد في التواصل معي. أنا دائمًا مفتوح لمناقشة مشاريع جديدة، أو أفكار إبداعية، أو فرص للانضمام إلى رؤيتك.",
     "sendMessage": "أرسل رسالة"
   }
 }

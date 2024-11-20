@@ -792,3 +792,81 @@ export default function About() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "resume": {
+    "mainHead": {
+      "head": "Summary",
+      "subHead": "Resume"
+    },
+    "educationHead": "Education",
+    "education": {
+      "dept": {
+        "flutterDeveloperIntern": "Flutter Developer Intern",
+        "computerScience": "Computer Science",
+        "computerSciencePlus2": "Computer Science +2"
+      },
+      "university": {
+        "doctosmartEnterprises": "Doctosmart Enterprises, CyberPark Calicut",
+        "codmeHub": "CodmeHub International Pvt Ltd, Calicut",
+        "universityOfCalicut": "University of Calicut",
+        "keralaState": "Kerala State"
+      },
+      "desc": {
+        "flutterAppsApiOptimization": "Developed Flutter apps, integrated APIs, and optimized performance.",
+        "responsiveUI": "Built responsive Flutter UI and collaborated on team projects.",
+        "bachelorsDegreeCS": "Bachelor's degree in Computer Science, focused on software development and algorithms.",
+        "higherSecondaryEducation": "Higher secondary education with a focus on programming and problem-solving."
+      }
+    },
+    "experience": {
+      "dept": {
+        "jrFlutterDeveloperTrainer": "Jr Flutter Developer & Trainer",
+        "flutterDeveloper": "Flutter Developer",
+        "flutterDeveloperIntern": "Flutter Developer - Intern"
+      },
+      "company": {
+        "doctosmartEnterprises": "Doctosmart Enterprises Pvt Ltd, Calicut",
+        "repadtech": "Repadtech Pvt Ltd, Malappuram",
+        "vitezSoftware": "Vitez Software Pvt Ltd, Calicut"
+      },
+      "desc": {
+        "flutterExpertise": "Sharpened my expertise in the Flutter framework and Dart programming language.",
+        "contributeSoftwareApplications": "Contributed to the development of software applications or components."
+      }
+    },
+    "dates": {
+      "mar": "Mar",
+      "apr": "Apr",
+      "sep": "Sep",
+      "dec": "Dec",
+      "may": "May",
+      "feb": "Feb",
+      "present": "Present"
+    }
+  },

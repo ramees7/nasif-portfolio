@@ -14,13 +14,14 @@ import nasifBg from "../assets/nasif.jpg";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import { ColorContext } from "../context/ColorContextShare";
+import { SettingsContext } from "../context/SettingsContext";
 
 export default function Landing() {
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);
   const [showMenu, setShowMenu] = useState(false);
-  const { textColor } = useContext(ColorContext);
+  const { textColor } = useContext(SettingsContext);
 
   const { t, i18n } = useTranslation();
   const roles = [t("landing.roles.freelancer"), t("landing.roles.developer")];
@@ -158,13 +159,15 @@ export default function Landing() {
       <div className="flex flex-col justify-end pb-10 sm:pb-40 h-full px-16 md:px-32 lg:px-48">
         <h1 className="md:text-7xl text-5xl font-bold mb-4">
           {/* {t("landing.name")} */}
-          {t("landing.name")
-            .split(" ")
-            .map((part, index) => (
-              <React.Fragment key={index}>
-                {part} {index === 0 && <br />}
-              </React.Fragment>
-            ))}
+          {i18n.language === "en"
+            ? t("landing.name")
+                .split(" ")
+                .map((part, index) => (
+                  <React.Fragment key={index}>
+                    {part} {index === 0 && <br />}
+                  </React.Fragment>
+                ))
+            : t("landing.name")}
         </h1>
         <p className="md:text-3xl text-2xl">
           {t("landing.greeting")}{" "}
