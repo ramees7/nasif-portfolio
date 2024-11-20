@@ -92,7 +92,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./Components/Portfolio";
 import { SettingsProvider } from "./context/SettingsContext";
-import SettingsSidebar from "./components/SettingsSidebar"; // separate component for color switching UI
+import SettingsSidebar from "./components/SettingsSidebar.jsx"; // separate component for color switching UI
 
 export default function App() {
   return (
